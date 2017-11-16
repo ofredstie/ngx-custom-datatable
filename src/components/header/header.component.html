@@ -5,35 +5,35 @@
     class="datatable-header-inner">
 
     <div
-    *ngFor="let colGroup of columnsByPin; trackBy: trackByGroups"
-    [class]="'datatable-row-' + colGroup.type"
-    [ngStyle]="stylesByGroup(colGroup.type)">
-    <datatable-header-cell
-        *ngFor="let column of colGroup.columns; trackBy: columnTrackingFn"
-        resizeable
-        [resizeEnabled]="column.resizeable"
-        (resize)="onColumnResized($event, column)"
-        long-press
-        [pressModel]="column"
-        [pressEnabled]="reorderable && column.draggable"
-        (longPressStart)="onLongPressStart($event)"
-        (longPressEnd)="onLongPressEnd($event)"
-        draggable
-        [dragX]="reorderable && column.draggable && column.dragging"
-        [dragY]="false"
-        [dragModel]="column"
-        [dragEventTarget]="dragEventTarget"
-        [headerHeight]="headerHeight"
-        [column]="column"
-        [sortType]="sortType"
-        [sorts]="sorts"
-        [selectionType]="selectionType"
-        [sortAscendingIcon]="sortAscendingIcon"
-        [sortDescendingIcon]="sortDescendingIcon"
-        [allRowsSelected]="allRowsSelected"
-        (sort)="onSort($event)"
-        (select)="select.emit($event)"
-        (columnContextmenu)="columnContextmenu.emit($event)">
-    </datatable-header-cell>
+        *ngFor="let colGroup of columnsByPin; trackBy: trackByGroups"
+        [class]="'datatable-row-' + colGroup.type"
+        [ngStyle]="stylesByGroup(colGroup.type)">
+        <datatable-header-cell
+            *ngFor="let column of colGroup.columns; trackBy: columnTrackingFn"
+            resizeable
+            [resizeEnabled]="column.resizeable"
+            (resize)="onColumnResized($event, column)"
+            long-press
+            [pressModel]="column"
+            [pressEnabled]="reorderable && column.draggable"
+            (longPressStart)="onLongPressStart($event)"
+            (longPressEnd)="onLongPressEnd($event)"
+            draggable
+            [dragX]="reorderable && column.draggable && column.dragging"
+            [dragY]="false"
+            [dragModel]="column"
+            [dragEventTarget]="dragEventTarget"
+            [headerHeight]="headerHeight"
+            [column]="column"
+            [sortType]="sortType"
+            [sorts]="sorts"
+            [selectionType]="selectionType"
+            [sortAscendingIcon]="sortAscendingIcon"
+            [sortDescendingIcon]="sortDescendingIcon"
+            [allRowsSelected]="allRowsSelected"
+            (sort)="onSort($event)"
+            (select)="select.emit($event)"
+            (columnContextmenu)="columnContextmenu.emit($event)">
+        </datatable-header-cell>
     </div>
 </div>

@@ -7,7 +7,7 @@ import { MouseEvent } from '../../events';
 
 @Component({
   selector: 'datatable-scroller',
-  template: 'scroller.component.html',
+  templateUrl: 'scroller.component.html',
   host: {
     class: 'datatable-scroll'
   },

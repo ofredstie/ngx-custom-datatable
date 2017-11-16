@@ -12,29 +12,7 @@ import { MouseEvent, KeyboardEvent } from '../../events';
 @Component({
   selector: 'datatable-body-cell',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  template: `
-    <div class="datatable-body-cell-label">
-      <label
-        *ngIf="column.checkboxable && (!displayCheck || displayCheck(row, column, value))"
-        class="datatable-checkbox">
-        <input
-          type="checkbox"
-          [checked]="isSelected"
-          (click)="onCheckboxChange($event)"
-        />
-      </label>
-      <span
-        *ngIf="!column.cellTemplate"
-        [title]="sanitizedValue"
-        [innerHTML]="value">
-      </span>
-      <ng-template #cellTemplate
-        *ngIf="column.cellTemplate"
-        [ngTemplateOutlet]="column.cellTemplate"
-        [ngTemplateOutletContext]="cellContext">
-      </ng-template>
-    </div>
-  `
+  templateUrl: 'body-cell.component.html'
 })
 export class DataTableBodyCellComponent implements DoCheck, OnDestroy {
   @Input() displayCheck: any;

@@ -1,0 +1,19 @@
+<div
+  *ngFor="let colGroup of columnsByPin; let i = index; trackBy: trackByGroups"
+  class="datatable-row-{{colGroup.type}} datatable-row-group"
+  [ngStyle]="stylesByGroup(colGroup.type)">
+  <datatable-body-cell
+    *ngFor="let column of colGroup.columns; let ii = index; trackBy: columnTrackingFn"
+    tabindex="-1"
+    [row]="row"
+    [group]="group"
+    [expanded]="expanded"
+    [isSelected]="isSelected"
+    [rowIndex]="rowIndex"
+    [column]="column"
+    [rowHeight]="rowHeight"
+    [displayCheck]="displayCheck"
+    (activate)="onActivate($event, ii)">
+  </datatable-body-cell>
+</div>      
+  

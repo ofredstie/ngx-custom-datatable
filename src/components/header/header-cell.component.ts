@@ -8,37 +8,7 @@ import { MouseEvent } from '../../events';
 
 @Component({
   selector: 'datatable-header-cell',
-  template: `
-    <div>
-      <label
-        *ngIf="isCheckboxable"
-        class="datatable-checkbox">
-        <input
-          type="checkbox"
-          [checked]="allRowsSelected"
-          (change)="select.emit(!allRowsSelected)"
-        />
-      </label>
-      <span
-        *ngIf="!column.headerTemplate"
-        class="datatable-header-cell-wrapper">
-        <span
-          class="datatable-header-cell-label draggable"
-          (click)="onSort()"
-          [innerHTML]="name">
-        </span>
-      </span>
-      <ng-template
-        *ngIf="column.headerTemplate"
-        [ngTemplateOutlet]="column.headerTemplate"
-        [ngTemplateOutletContext]="cellContext">
-      </ng-template>
-      <span
-        (click)="onSort()"
-        [class]="sortClass">
-      </span>
-    </div>
-  `,
+  templateUrl: 'header-cell.component.html',
   host: {
     class: 'datatable-header-cell'
   },

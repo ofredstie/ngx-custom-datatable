@@ -14,9 +14,7 @@ export interface Model {
 
 @Component({
   selector: 'datatable-selection',
-  template: `
-    <ng-content></ng-content>
-  `,
+  templateUrl: 'selection.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DataTableSelectionComponent {

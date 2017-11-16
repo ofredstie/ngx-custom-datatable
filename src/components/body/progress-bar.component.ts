@@ -2,13 +2,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'datatable-progress',
-  template: `
-    <div class="progress-linear" role="progressbar">
-      <div class="container">
-        <div class="bar"></div>
-      </div>
-    </div>
-  `,
+  templateUrl: 'progress-bar.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ProgressBarComponent {

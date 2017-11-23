@@ -13,12 +13,6 @@
             offset: offset
         }">
     </ng-template>
-    <div class="page-count" *ngIf="!paginationTemplate">
-        <span *ngIf="selectedMessage">
-            {{selectedCount.toLocaleString()}} {{selectedMessage}} / 
-        </span>
-        Showing {{pageSize}} of {{rowCount.toLocaleString()}} {{totalMessage}}
-    </div>
     <datatable-pager *ngIf="!paginationTemplate"
         [pagerLeftArrowIcon]="pagerLeftArrowIcon"
         [pagerRightArrowIcon]="pagerRightArrowIcon"
@@ -30,4 +24,10 @@
         [hidden]="!isVisible"
         (change)="page.emit($event)">
     </datatable-pager>
+    <div class="page-count" *ngIf="!paginationTemplate">
+        <span *ngIf="selectedMessage">
+            {{selectedCount.toLocaleString()}} {{selectedMessage}} / 
+        </span>
+        Showing {{1 + (pageSize * offset)}} to {{curPage * pageSize}} of {{rowCount.toLocaleString()}} {{totalMessage}}
+    </div>
 </div>

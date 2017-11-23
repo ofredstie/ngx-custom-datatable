@@ -17,7 +17,7 @@
         <span *ngIf="selectedMessage">
             {{selectedCount.toLocaleString()}} {{selectedMessage}} / 
         </span>
-        {{rowCount.toLocaleString()}} {{totalMessage}}
+        Showing {{pageSize}} of {{rowCount.toLocaleString()}} {{totalMessage}}
     </div>
     <datatable-pager *ngIf="!footerTemplate"
         [pagerLeftArrowIcon]="pagerLeftArrowIcon"

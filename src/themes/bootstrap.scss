@@ -6,6 +6,8 @@ bootstrap table theme
   box-shadow: none;
   font-size: 13px;
   .datatable-header {
+    background: #cccccc;
+    font-weight: bold;
     height: unset !important;
     .datatable-header-cell {
       vertical-align: bottom;

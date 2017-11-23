@@ -85,7 +85,7 @@ var ScrollerComponent = /** @class */ (function () {
     ScrollerComponent = __decorate([
         core_1.Component({
             selector: 'datatable-scroller',
-            template: "\n    <ng-content></ng-content>\n  ",
+            templateUrl: 'scroller.component.html',
             host: {
                 class: 'datatable-scroll'
             },

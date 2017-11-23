@@ -88,7 +88,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".ngx-datatable {\n  display: block;\n  overflow: hidden;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  position: relative;\n  -webkit-transform: translate3d(0, 0, 0);\n  /**\n   * Vertical Scrolling Adjustments\n   */\n  /**\n   * Horizontal Scrolling Adjustments\n   */\n  /**\n   * Fixed Header Height Adjustments\n   */\n  /**\n   * Fixed row height adjustments\n   */\n  /**\n   * Shared Styles\n   */\n  /**\n   * Header Styles\n   */\n  /**\n   * Body Styles\n   */\n  /**\n   * Footer Styles\n   */ }\n  .ngx-datatable [hidden] {\n    display: none !important; }\n  .ngx-datatable *, .ngx-datatable *:before, .ngx-datatable *:after {\n    -webkit-box-sizing: border-box;\n    box-sizing: border-box; }\n  .ngx-datatable.scroll-vertical .datatable-body {\n    overflow-y: auto; }\n    .ngx-datatable.scroll-vertical .datatable-body .datatable-row-wrapper {\n      position: absolute; }\n  .ngx-datatable.scroll-horz .datatable-body {\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch; }\n  .ngx-datatable.fixed-header .datatable-header .datatable-header-inner {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-header .datatable-header .datatable-header-inner .datatable-header-cell {\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n  .ngx-datatable.fixed-row .datatable-scroll {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row {\n      white-space: nowrap; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-group-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n  .ngx-datatable .datatable-body-row,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-header-inner {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -ms-flex-flow: row;\n    -o-flex-flow: row;\n    flex-flow: row; }\n  .ngx-datatable .datatable-body-cell,\n  .ngx-datatable .datatable-header-cell {\n    overflow-x: hidden;\n    vertical-align: top;\n    display: inline-block;\n    line-height: 1.625; }\n    .ngx-datatable .datatable-body-cell:focus,\n    .ngx-datatable .datatable-header-cell:focus {\n      outline: none; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-right {\n    z-index: 9; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-row-group,\n  .ngx-datatable .datatable-row-right {\n    position: relative; }\n  .ngx-datatable .datatable-header {\n    display: block;\n    overflow: hidden; }\n    .ngx-datatable .datatable-header .datatable-header-inner {\n      -webkit-box-align: stretch;\n          -ms-flex-align: stretch;\n              align-items: stretch;\n      -webkit-align-items: stretch; }\n    .ngx-datatable .datatable-header .datatable-header-cell {\n      position: relative;\n      display: inline-block; }\n      .ngx-datatable .datatable-header .datatable-header-cell.sortable .datatable-header-cell-wrapper {\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell.longpress .datatable-header-cell-wrapper {\n        cursor: move; }\n      .ngx-datatable .datatable-header .datatable-header-cell .sort-btn {\n        line-height: 100%;\n        vertical-align: middle;\n        display: inline-block;\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell .resize-handle {\n        display: inline-block;\n        position: absolute;\n        right: 0;\n        top: 0;\n        bottom: 0;\n        width: 5px;\n        padding: 0 4px;\n        visibility: hidden;\n        cursor: ew-resize; }\n      .ngx-datatable .datatable-header .datatable-header-cell.resizeable:hover .resize-handle {\n        visibility: visible; }\n  .ngx-datatable .datatable-body {\n    position: relative;\n    z-index: 10;\n    display: block; }\n    .ngx-datatable .datatable-body .datatable-scroll {\n      display: inline-block; }\n    .ngx-datatable .datatable-body .datatable-row-detail {\n      overflow-y: hidden; }\n    .ngx-datatable .datatable-body .datatable-row-wrapper {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n      flex-direction: column; }\n    .ngx-datatable .datatable-body .datatable-body-row {\n      outline: none; }\n      .ngx-datatable .datatable-body .datatable-body-row > div {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex; }\n  .ngx-datatable .datatable-footer {\n    display: block;\n    width: 100%; }\n    .ngx-datatable .datatable-footer .datatable-footer-inner {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      width: 100%; }\n    .ngx-datatable .datatable-footer .selected-count .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 40%;\n              flex: 1 1 40%; }\n    .ngx-datatable .datatable-footer .selected-count .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 60%;\n              flex: 1 1 60%; }\n    .ngx-datatable .datatable-footer .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 20%;\n              flex: 1 1 20%; }\n    .ngx-datatable .datatable-footer .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 80%;\n              flex: 1 1 80%;\n      text-align: right; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager,\n      .ngx-datatable .datatable-footer .datatable-pager .pager li {\n        padding: 0;\n        margin: 0;\n        display: inline-block;\n        list-style: none; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li, .ngx-datatable .datatable-footer .datatable-pager .pager li a {\n        outline: none; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li a {\n        cursor: pointer;\n        display: inline-block; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li.disabled a {\n        cursor: not-allowed; }\n", ""]);
+exports.push([module.i, ".ngx-datatable {\n  display: block;\n  overflow: hidden;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  position: relative;\n  -webkit-transform: translate3d(0, 0, 0);\n  /**\r\n   * Vertical Scrolling Adjustments\r\n   */\n  /**\r\n   * Horizontal Scrolling Adjustments\r\n   */\n  /**\r\n   * Fixed Header Height Adjustments\r\n   */\n  /**\r\n   * Fixed row height adjustments\r\n   */\n  /**\r\n   * Shared Styles\r\n   */\n  /**\r\n   * Header Styles\r\n   */\n  /**\r\n   * Body Styles\r\n   */\n  /**\r\n   * Footer Styles\r\n   */ }\n  .ngx-datatable [hidden] {\n    display: none !important; }\n  .ngx-datatable *, .ngx-datatable *:before, .ngx-datatable *:after {\n    -webkit-box-sizing: border-box;\n    box-sizing: border-box; }\n  .ngx-datatable.scroll-vertical .datatable-body {\n    overflow-y: auto; }\n    .ngx-datatable.scroll-vertical .datatable-body .datatable-row-wrapper {\n      position: absolute; }\n  .ngx-datatable.scroll-horz .datatable-body {\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch; }\n  .ngx-datatable.fixed-header .datatable-header .datatable-header-inner {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-header .datatable-header .datatable-header-inner .datatable-header-cell {\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n  .ngx-datatable.fixed-row .datatable-scroll {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row {\n      white-space: nowrap; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-group-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n  .ngx-datatable .datatable-body-row,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-header-inner {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -ms-flex-flow: row;\n    -o-flex-flow: row;\n    flex-flow: row; }\n  .ngx-datatable .datatable-body-cell,\n  .ngx-datatable .datatable-header-cell {\n    overflow-x: hidden;\n    vertical-align: top;\n    display: inline-block;\n    line-height: 1.625; }\n    .ngx-datatable .datatable-body-cell:focus,\n    .ngx-datatable .datatable-header-cell:focus {\n      outline: none; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-right {\n    z-index: 9; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-row-group,\n  .ngx-datatable .datatable-row-right {\n    position: relative; }\n  .ngx-datatable .datatable-header {\n    display: block;\n    overflow: hidden; }\n    .ngx-datatable .datatable-header .datatable-header-inner {\n      -webkit-box-align: stretch;\n          -ms-flex-align: stretch;\n              align-items: stretch;\n      -webkit-align-items: stretch; }\n    .ngx-datatable .datatable-header .datatable-header-cell {\n      position: relative;\n      display: inline-block; }\n      .ngx-datatable .datatable-header .datatable-header-cell.sortable .datatable-header-cell-wrapper {\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell.longpress .datatable-header-cell-wrapper {\n        cursor: move; }\n      .ngx-datatable .datatable-header .datatable-header-cell .sort-btn {\n        line-height: 100%;\n        vertical-align: middle;\n        display: inline-block;\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell .resize-handle {\n        display: inline-block;\n        position: absolute;\n        right: 0;\n        top: 0;\n        bottom: 0;\n        width: 5px;\n        padding: 0 4px;\n        visibility: hidden;\n        cursor: ew-resize; }\n      .ngx-datatable .datatable-header .datatable-header-cell.resizeable:hover .resize-handle {\n        visibility: visible; }\n  .ngx-datatable .datatable-body {\n    position: relative;\n    z-index: 10;\n    display: block; }\n    .ngx-datatable .datatable-body .datatable-scroll {\n      display: inline-block; }\n    .ngx-datatable .datatable-body .datatable-row-detail {\n      overflow-y: hidden; }\n    .ngx-datatable .datatable-body .datatable-row-wrapper {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n      flex-direction: column; }\n    .ngx-datatable .datatable-body .datatable-body-row {\n      outline: none; }\n      .ngx-datatable .datatable-body .datatable-body-row > div {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex; }\n  .ngx-datatable .datatable-footer {\n    display: block;\n    width: 100%; }\n    .ngx-datatable .datatable-footer .datatable-footer-inner {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      width: 100%; }\n    .ngx-datatable .datatable-footer .selected-count .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 40%;\n              flex: 1 1 40%; }\n    .ngx-datatable .datatable-footer .selected-count .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 60%;\n              flex: 1 1 60%; }\n    .ngx-datatable .datatable-footer .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 20%;\n              flex: 1 1 20%; }\n    .ngx-datatable .datatable-footer .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 80%;\n              flex: 1 1 80%;\n      text-align: right; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager,\n      .ngx-datatable .datatable-footer .datatable-pager .pager li {\n        padding: 0;\n        margin: 0;\n        display: inline-block;\n        list-style: none; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li, .ngx-datatable .datatable-footer .datatable-pager .pager li a {\n        outline: none; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li a {\n        cursor: pointer;\n        display: inline-block; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li.disabled a {\n        cursor: not-allowed; }\n", ""]);
 
 // exports
 
@@ -1878,6 +1878,13 @@ module.exports = g;
 
 /***/ }),
 
+/***/ "./src/components/body/body-cell.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"datatable-body-cell-label\">\r\n  <label\r\n    *ngIf=\"column.checkboxable && (!displayCheck || displayCheck(row, column, value))\"\r\n    class=\"datatable-checkbox\">\r\n    <input\r\n      type=\"checkbox\"\r\n      [checked]=\"isSelected\"\r\n      (click)=\"onCheckboxChange($event)\"\r\n    />\r\n  </label>\r\n  <span\r\n    *ngIf=\"!column.cellTemplate\"\r\n    [title]=\"sanitizedValue\"\r\n    [innerHTML]=\"value\">\r\n  </span>\r\n  <ng-template #cellTemplate\r\n    *ngIf=\"column.cellTemplate\"\r\n    [ngTemplateOutlet]=\"column.cellTemplate\"\r\n    [ngTemplateOutletContext]=\"cellContext\">\r\n  </ng-template>\r\n</div>\r\n"
+
+/***/ }),
+
 /***/ "./src/components/body/body-cell.component.ts":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2286,7 +2293,7 @@ var DataTableBodyCellComponent = /** @class */ (function () {
         core_1.Component({
             selector: 'datatable-body-cell',
             changeDetection: core_1.ChangeDetectionStrategy.OnPush,
-            template: "\n    <div class=\"datatable-body-cell-label\">\n      <label\n        *ngIf=\"column.checkboxable && (!displayCheck || displayCheck(row, column, value))\"\n        class=\"datatable-checkbox\">\n        <input\n          type=\"checkbox\"\n          [checked]=\"isSelected\"\n          (click)=\"onCheckboxChange($event)\"\n        />\n      </label>\n      <span\n        *ngIf=\"!column.cellTemplate\"\n        [title]=\"sanitizedValue\"\n        [innerHTML]=\"value\">\n      </span>\n      <ng-template #cellTemplate\n        *ngIf=\"column.cellTemplate\"\n        [ngTemplateOutlet]=\"column.cellTemplate\"\n        [ngTemplateOutletContext]=\"cellContext\">\n      </ng-template>\n    </div>\n  "
+            template: __webpack_require__("./src/components/body/body-cell.component.html")
         }),
         __metadata("design:paramtypes", [core_1.ElementRef, core_1.ChangeDetectorRef])
     ], DataTableBodyCellComponent);
@@ -2406,6 +2413,13 @@ var DatatableGroupHeaderDirective = /** @class */ (function () {
 }());
 exports.DatatableGroupHeaderDirective = DatatableGroupHeaderDirective;
 
+
+/***/ }),
+
+/***/ "./src/components/body/body-row-wrapper.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div \r\n  *ngIf=\"groupHeader && groupHeader.template\"\r\n  class=\"datatable-group-header\"\r\n  [ngStyle]=\"getGroupHeaderStyle()\">\r\n  <ng-template\r\n    *ngIf=\"groupHeader && groupHeader.template\"\r\n    [ngTemplateOutlet]=\"groupHeader.template\"\r\n    [ngTemplateOutletContext]=\"groupContext\">\r\n  </ng-template>\r\n</div>\r\n<ng-content \r\n  *ngIf=\"(groupHeader && groupHeader.template && expanded) || \r\n          (!groupHeader || !groupHeader.template)\">\r\n</ng-content>\r\n<div\r\n  *ngIf=\"rowDetail && rowDetail.template && expanded\"\r\n  [style.height.px]=\"detailRowHeight\"\r\n  class=\"datatable-row-detail\">\r\n  <ng-template\r\n    *ngIf=\"rowDetail && rowDetail.template\"\r\n    [ngTemplateOutlet]=\"rowDetail.template\"\r\n    [ngTemplateOutletContext]=\"rowContext\">\r\n  </ng-template>\r\n</div>\r\n  "
 
 /***/ }),
 
@@ -2539,7 +2553,7 @@ var DataTableRowWrapperComponent = /** @class */ (function () {
         core_1.Component({
             selector: 'datatable-row-wrapper',
             changeDetection: core_1.ChangeDetectionStrategy.OnPush,
-            template: "\n    <div \n      *ngIf=\"groupHeader && groupHeader.template\"\n      class=\"datatable-group-header\"\n      [ngStyle]=\"getGroupHeaderStyle()\">\n      <ng-template\n        *ngIf=\"groupHeader && groupHeader.template\"\n        [ngTemplateOutlet]=\"groupHeader.template\"\n        [ngTemplateOutletContext]=\"groupContext\">\n      </ng-template>\n    </div>\n    <ng-content \n      *ngIf=\"(groupHeader && groupHeader.template && expanded) || \n             (!groupHeader || !groupHeader.template)\">\n    </ng-content>\n    <div\n      *ngIf=\"rowDetail && rowDetail.template && expanded\"\n      [style.height.px]=\"detailRowHeight\"\n      class=\"datatable-row-detail\">\n      <ng-template\n        *ngIf=\"rowDetail && rowDetail.template\"\n        [ngTemplateOutlet]=\"rowDetail.template\"\n        [ngTemplateOutletContext]=\"rowContext\">\n      </ng-template>\n    </div>\n  ",
+            template: __webpack_require__("./src/components/body/body-row-wrapper.component.html"),
             host: {
                 class: 'datatable-row-wrapper'
             }
@@ -2550,6 +2564,13 @@ var DataTableRowWrapperComponent = /** @class */ (function () {
 }());
 exports.DataTableRowWrapperComponent = DataTableRowWrapperComponent;
 
+
+/***/ }),
+
+/***/ "./src/components/body/body-row.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div\r\n  *ngFor=\"let colGroup of columnsByPin; let i = index; trackBy: trackByGroups\"\r\n  class=\"datatable-row-{{colGroup.type}} datatable-row-group\"\r\n  [ngStyle]=\"stylesByGroup(colGroup.type)\">\r\n  <datatable-body-cell\r\n    *ngFor=\"let column of colGroup.columns; let ii = index; trackBy: columnTrackingFn\"\r\n    tabindex=\"-1\"\r\n    [row]=\"row\"\r\n    [group]=\"group\"\r\n    [expanded]=\"expanded\"\r\n    [isSelected]=\"isSelected\"\r\n    [rowIndex]=\"rowIndex\"\r\n    [column]=\"column\"\r\n    [rowHeight]=\"rowHeight\"\r\n    [displayCheck]=\"displayCheck\"\r\n    (activate)=\"onActivate($event, ii)\">\r\n  </datatable-body-cell>\r\n</div>      \r\n  "
 
 /***/ }),
 
@@ -2787,7 +2808,7 @@ var DataTableBodyRowComponent = /** @class */ (function () {
         core_1.Component({
             selector: 'datatable-body-row',
             changeDetection: core_1.ChangeDetectionStrategy.OnPush,
-            template: "\n    <div\n      *ngFor=\"let colGroup of columnsByPin; let i = index; trackBy: trackByGroups\"\n      class=\"datatable-row-{{colGroup.type}} datatable-row-group\"\n      [ngStyle]=\"stylesByGroup(colGroup.type)\">\n      <datatable-body-cell\n        *ngFor=\"let column of colGroup.columns; let ii = index; trackBy: columnTrackingFn\"\n        tabindex=\"-1\"\n        [row]=\"row\"\n        [group]=\"group\"\n        [expanded]=\"expanded\"\n        [isSelected]=\"isSelected\"\n        [rowIndex]=\"rowIndex\"\n        [column]=\"column\"\n        [rowHeight]=\"rowHeight\"\n        [displayCheck]=\"displayCheck\"\n        (activate)=\"onActivate($event, ii)\">\n      </datatable-body-cell>\n    </div>      \n  "
+            template: __webpack_require__("./src/components/body/body-row.component.html")
         }),
         __metadata("design:paramtypes", [core_1.KeyValueDiffers,
             services_1.ScrollbarHelper,
@@ -2798,6 +2819,13 @@ var DataTableBodyRowComponent = /** @class */ (function () {
 }());
 exports.DataTableBodyRowComponent = DataTableBodyRowComponent;
 
+
+/***/ }),
+
+/***/ "./src/components/body/body.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<datatable-selection\r\n#selector\r\n[selected]=\"selected\"\r\n[rows]=\"rows\"\r\n[selectCheck]=\"selectCheck\"\r\n[selectEnabled]=\"selectEnabled\"\r\n[selectionType]=\"selectionType\"\r\n[rowIdentity]=\"rowIdentity\"\r\n(select)=\"select.emit($event)\"\r\n(activate)=\"activate.emit($event)\">\r\n    <datatable-progress\r\n    *ngIf=\"loadingIndicator\">\r\n    </datatable-progress>\r\n    <datatable-scroller\r\n    *ngIf=\"rows?.length\"\r\n    [scrollbarV]=\"scrollbarV\"\r\n    [scrollbarH]=\"scrollbarH\"\r\n    [scrollHeight]=\"scrollHeight\"\r\n    [scrollWidth]=\"columnGroupWidths.total\"\r\n    (scroll)=\"onBodyScroll($event)\">\r\n    <datatable-row-wrapper\r\n        [groupedRows]=\"groupedRows\"\r\n        *ngFor=\"let group of temp; let i = index; trackBy: rowTrackingFn;\"\r\n        [innerWidth]=\"innerWidth\"\r\n        [ngStyle]=\"getRowsStyles(group)\"\r\n        [rowDetail]=\"rowDetail\"\r\n        [groupHeader]=\"groupHeader\"\r\n        [offsetX]=\"offsetX\"\r\n        [detailRowHeight]=\"getDetailRowHeight(group[i],i)\"\r\n        [row]=\"group\"\r\n        [expanded]=\"getRowExpanded(group)\"\r\n        [rowIndex]=\"getRowIndex(group[i])\"\r\n        (rowContextmenu)=\"rowContextmenu.emit($event)\">\r\n        <datatable-body-row \r\n        *ngIf=\"!groupedRows; else groupedRowsTemplate\"        \r\n        tabindex=\"-1\"\r\n        [isSelected]=\"selector.getRowSelected(group)\"\r\n        [innerWidth]=\"innerWidth\"\r\n        [offsetX]=\"offsetX\"\r\n        [columns]=\"columns\"\r\n        [rowHeight]=\"getRowHeight(group)\"\r\n        [row]=\"group\"\r\n        [rowIndex]=\"getRowIndex(group)\"\r\n        [expanded]=\"getRowExpanded(group)\"            \r\n        [rowClass]=\"rowClass\"\r\n        [displayCheck]=\"displayCheck\"\r\n        (activate)=\"selector.onActivate($event, indexes.first + i)\">\r\n        </datatable-body-row>\r\n        <ng-template #groupedRowsTemplate>\r\n        <datatable-body-row\r\n            *ngFor=\"let row of group.value; let i = index; trackBy: rowTrackingFn;\"\r\n            tabindex=\"-1\"\r\n            [isSelected]=\"selector.getRowSelected(row)\"\r\n            [innerWidth]=\"innerWidth\"\r\n            [offsetX]=\"offsetX\"\r\n            [columns]=\"columns\"\r\n            [rowHeight]=\"getRowHeight(row)\"\r\n            [row]=\"row\"\r\n            [group]=\"group.value\"\r\n            [rowIndex]=\"getRowIndex(row)\"\r\n            [expanded]=\"getRowExpanded(row)\"\r\n            [rowClass]=\"rowClass\"\r\n            (activate)=\"selector.onActivate($event, i)\">\r\n        </datatable-body-row>\r\n        </ng-template>\r\n    </datatable-row-wrapper>\r\n    </datatable-scroller>\r\n    <div\r\n    class=\"empty-row\"\r\n    *ngIf=\"!rows?.length\"\r\n    [innerHTML]=\"emptyMessage\">\r\n    </div>\r\n</datatable-selection>\r\n"
 
 /***/ }),
 
@@ -3504,7 +3532,7 @@ var DataTableBodyComponent = /** @class */ (function () {
     DataTableBodyComponent = __decorate([
         core_1.Component({
             selector: 'datatable-body',
-            template: "\n    <datatable-selection\n      #selector\n      [selected]=\"selected\"\n      [rows]=\"rows\"\n      [selectCheck]=\"selectCheck\"\n      [selectEnabled]=\"selectEnabled\"\n      [selectionType]=\"selectionType\"\n      [rowIdentity]=\"rowIdentity\"\n      (select)=\"select.emit($event)\"\n      (activate)=\"activate.emit($event)\">\n      <datatable-progress\n        *ngIf=\"loadingIndicator\">\n      </datatable-progress>\n      <datatable-scroller\n        *ngIf=\"rows?.length\"\n        [scrollbarV]=\"scrollbarV\"\n        [scrollbarH]=\"scrollbarH\"\n        [scrollHeight]=\"scrollHeight\"\n        [scrollWidth]=\"columnGroupWidths.total\"\n        (scroll)=\"onBodyScroll($event)\">\n        <datatable-row-wrapper\n          [groupedRows]=\"groupedRows\"\n          *ngFor=\"let group of temp; let i = index; trackBy: rowTrackingFn;\"\n          [innerWidth]=\"innerWidth\"\n          [ngStyle]=\"getRowsStyles(group)\"\n          [rowDetail]=\"rowDetail\"\n          [groupHeader]=\"groupHeader\"\n          [offsetX]=\"offsetX\"\n          [detailRowHeight]=\"getDetailRowHeight(group[i],i)\"\n          [row]=\"group\"\n          [expanded]=\"getRowExpanded(group)\"\n          [rowIndex]=\"getRowIndex(group[i])\"\n          (rowContextmenu)=\"rowContextmenu.emit($event)\">\n          <datatable-body-row \n            *ngIf=\"!groupedRows; else groupedRowsTemplate\"        \n            tabindex=\"-1\"\n            [isSelected]=\"selector.getRowSelected(group)\"\n            [innerWidth]=\"innerWidth\"\n            [offsetX]=\"offsetX\"\n            [columns]=\"columns\"\n            [rowHeight]=\"getRowHeight(group)\"\n            [row]=\"group\"\n            [rowIndex]=\"getRowIndex(group)\"\n            [expanded]=\"getRowExpanded(group)\"            \n            [rowClass]=\"rowClass\"\n            [displayCheck]=\"displayCheck\"\n            (activate)=\"selector.onActivate($event, indexes.first + i)\">\n          </datatable-body-row>\n          <ng-template #groupedRowsTemplate>\n            <datatable-body-row\n              *ngFor=\"let row of group.value; let i = index; trackBy: rowTrackingFn;\"\n              tabindex=\"-1\"\n              [isSelected]=\"selector.getRowSelected(row)\"\n              [innerWidth]=\"innerWidth\"\n              [offsetX]=\"offsetX\"\n              [columns]=\"columns\"\n              [rowHeight]=\"getRowHeight(row)\"\n              [row]=\"row\"\n              [group]=\"group.value\"\n              [rowIndex]=\"getRowIndex(row)\"\n              [expanded]=\"getRowExpanded(row)\"\n              [rowClass]=\"rowClass\"\n              (activate)=\"selector.onActivate($event, i)\">\n            </datatable-body-row>\n          </ng-template>\n        </datatable-row-wrapper>\n      </datatable-scroller>\n      <div\n        class=\"empty-row\"\n        *ngIf=\"!rows?.length\"\n        [innerHTML]=\"emptyMessage\">\n      </div>\n    </datatable-selection>\n  ",
+            template: __webpack_require__("./src/components/body/body.component.html"),
             changeDetection: core_1.ChangeDetectionStrategy.OnPush,
             host: {
                 class: 'datatable-body'
@@ -3541,6 +3569,13 @@ __export(__webpack_require__("./src/components/body/body-group-header-template.d
 
 /***/ }),
 
+/***/ "./src/components/body/progress-bar.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"progress-linear\" role=\"progressbar\">\r\n    <div class=\"container\">\r\n        <div class=\"bar\"></div>\r\n    </div>\r\n</div>\r\n"
+
+/***/ }),
+
 /***/ "./src/components/body/progress-bar.component.ts":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3560,7 +3595,7 @@ var ProgressBarComponent = /** @class */ (function () {
     ProgressBarComponent = __decorate([
         core_1.Component({
             selector: 'datatable-progress',
-            template: "\n    <div class=\"progress-linear\" role=\"progressbar\">\n      <div class=\"container\">\n        <div class=\"bar\"></div>\n      </div>\n    </div>\n  ",
+            template: __webpack_require__("./src/components/body/progress-bar.component.html"),
             changeDetection: core_1.ChangeDetectionStrategy.OnPush
         })
     ], ProgressBarComponent);
@@ -3568,6 +3603,13 @@ var ProgressBarComponent = /** @class */ (function () {
 }());
 exports.ProgressBarComponent = ProgressBarComponent;
 
+
+/***/ }),
+
+/***/ "./src/components/body/scroller.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<ng-content></ng-content>\r\n"
 
 /***/ }),
 
@@ -3662,7 +3704,7 @@ var ScrollerComponent = /** @class */ (function () {
     ScrollerComponent = __decorate([
         core_1.Component({
             selector: 'datatable-scroller',
-            template: "\n    <ng-content></ng-content>\n  ",
+            template: __webpack_require__("./src/components/body/scroller.component.html"),
             host: {
                 class: 'datatable-scroll'
             },
@@ -3674,6 +3716,13 @@ var ScrollerComponent = /** @class */ (function () {
 }());
 exports.ScrollerComponent = ScrollerComponent;
 
+
+/***/ }),
+
+/***/ "./src/components/body/selection.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<ng-content></ng-content>\r\n"
 
 /***/ }),
 
@@ -3853,7 +3902,7 @@ var DataTableSelectionComponent = /** @class */ (function () {
     DataTableSelectionComponent = __decorate([
         core_1.Component({
             selector: 'datatable-selection',
-            template: "\n    <ng-content></ng-content>\n  ",
+            template: __webpack_require__("./src/components/body/selection.component.html"),
             changeDetection: core_1.ChangeDetectionStrategy.OnPush
         })
     ], DataTableSelectionComponent);
@@ -4052,6 +4101,13 @@ __export(__webpack_require__("./src/components/columns/column.directive.ts"));
 __export(__webpack_require__("./src/components/columns/column-header.directive.ts"));
 __export(__webpack_require__("./src/components/columns/column-cell.directive.ts"));
 
+
+/***/ }),
+
+/***/ "./src/components/datatable.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div\r\nvisibilityObserver\r\n(visible)=\"recalculate()\">\r\n    <datatable-header\r\n    *ngIf=\"headerHeight\"\r\n    [sorts]=\"sorts\"\r\n    [sortType]=\"sortType\"\r\n    [scrollbarH]=\"scrollbarH\"\r\n    [innerWidth]=\"innerWidth\"\r\n    [offsetX]=\"offsetX\"\r\n    [dealsWithGroup]=\"groupedRows\"\r\n    [columns]=\"_internalColumns\"\r\n    [headerHeight]=\"headerHeight\"\r\n    [reorderable]=\"reorderable\"\r\n    [sortAscendingIcon]=\"cssClasses.sortAscending\"\r\n    [sortDescendingIcon]=\"cssClasses.sortDescending\"\r\n    [allRowsSelected]=\"allRowsSelected\"\r\n    [selectionType]=\"selectionType\"\r\n    (sort)=\"onColumnSort($event)\"\r\n    (resize)=\"onColumnResize($event)\"\r\n    (reorder)=\"onColumnReorder($event)\"\r\n    (select)=\"onHeaderSelect($event)\"\r\n    (columnContextmenu)=\"onColumnContextmenu($event)\">\r\n    </datatable-header>\r\n    <datatable-body\r\n    [groupRowsBy]=\"groupRowsBy\"\r\n    [groupedRows]=\"groupedRows\"\r\n    [rows]=\"_internalRows\"\r\n    [groupExpansionDefault]=\"groupExpansionDefault\"\r\n    [scrollbarV]=\"scrollbarV\"\r\n    [scrollbarH]=\"scrollbarH\"\r\n    [loadingIndicator]=\"loadingIndicator\"\r\n    [externalPaging]=\"externalPaging\"\r\n    [rowHeight]=\"rowHeight\"\r\n    [rowCount]=\"rowCount\"\r\n    [offset]=\"offset\"\r\n    [trackByProp]=\"trackByProp\"\r\n    [columns]=\"_internalColumns\"\r\n    [pageSize]=\"pageSize\"\r\n    [offsetX]=\"offsetX\"\r\n    [rowDetail]=\"rowDetail\"\r\n    [groupHeader]=\"groupHeader\"\r\n    [selected]=\"selected\"\r\n    [innerWidth]=\"innerWidth\"\r\n    [bodyHeight]=\"bodyHeight\"\r\n    [selectionType]=\"selectionType\"\r\n    [emptyMessage]=\"messages.emptyMessage\"\r\n    [rowIdentity]=\"rowIdentity\"\r\n    [rowClass]=\"rowClass\"\r\n    [selectCheck]=\"selectCheck\"\r\n    [displayCheck]=\"displayCheck\"\r\n    (page)=\"onBodyPage($event)\"\r\n    (activate)=\"activate.emit($event)\"\r\n    (rowContextmenu)=\"onRowContextmenu($event)\"\r\n    (select)=\"onBodySelect($event)\"\r\n    (scroll)=\"onBodyScroll($event)\">\r\n    </datatable-body>\r\n    <datatable-footer\r\n    *ngIf=\"footerHeight\"\r\n    [rowCount]=\"rowCount\"\r\n    [pageSize]=\"pageSize\"\r\n    [offset]=\"offset\"\r\n    [footerHeight]=\"footerHeight\"\r\n    [footerTemplate]=\"footer\"\r\n    [totalMessage]=\"messages.totalMessage\"\r\n    [pagerLeftArrowIcon]=\"cssClasses.pagerLeftArrow\"\r\n    [pagerRightArrowIcon]=\"cssClasses.pagerRightArrow\"\r\n    [pagerPreviousIcon]=\"cssClasses.pagerPrevious\"\r\n    [selectedCount]=\"selected.length\"\r\n    [selectedMessage]=\"!!selectionType && messages.selectedMessage\"\r\n    [pagerNextIcon]=\"cssClasses.pagerNext\"\r\n    (page)=\"onFooterPage($event)\">\r\n    </datatable-footer>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -5071,7 +5127,7 @@ var DatatableComponent = /** @class */ (function () {
     DatatableComponent = __decorate([
         core_1.Component({
             selector: 'ngx-datatable',
-            template: "\n    <div\n      visibilityObserver\n      (visible)=\"recalculate()\">\n      <datatable-header\n        *ngIf=\"headerHeight\"\n        [sorts]=\"sorts\"\n        [sortType]=\"sortType\"\n        [scrollbarH]=\"scrollbarH\"\n        [innerWidth]=\"innerWidth\"\n        [offsetX]=\"offsetX\"\n        [dealsWithGroup]=\"groupedRows\"\n        [columns]=\"_internalColumns\"\n        [headerHeight]=\"headerHeight\"\n        [reorderable]=\"reorderable\"\n        [sortAscendingIcon]=\"cssClasses.sortAscending\"\n        [sortDescendingIcon]=\"cssClasses.sortDescending\"\n        [allRowsSelected]=\"allRowsSelected\"\n        [selectionType]=\"selectionType\"\n        (sort)=\"onColumnSort($event)\"\n        (resize)=\"onColumnResize($event)\"\n        (reorder)=\"onColumnReorder($event)\"\n        (select)=\"onHeaderSelect($event)\"\n        (columnContextmenu)=\"onColumnContextmenu($event)\">\n      </datatable-header>\n      <datatable-body\n        [groupRowsBy]=\"groupRowsBy\"\n        [groupedRows]=\"groupedRows\"\n        [rows]=\"_internalRows\"\n        [groupExpansionDefault]=\"groupExpansionDefault\"\n        [scrollbarV]=\"scrollbarV\"\n        [scrollbarH]=\"scrollbarH\"\n        [loadingIndicator]=\"loadingIndicator\"\n        [externalPaging]=\"externalPaging\"\n        [rowHeight]=\"rowHeight\"\n        [rowCount]=\"rowCount\"\n        [offset]=\"offset\"\n        [trackByProp]=\"trackByProp\"\n        [columns]=\"_internalColumns\"\n        [pageSize]=\"pageSize\"\n        [offsetX]=\"offsetX\"\n        [rowDetail]=\"rowDetail\"\n        [groupHeader]=\"groupHeader\"\n        [selected]=\"selected\"\n        [innerWidth]=\"innerWidth\"\n        [bodyHeight]=\"bodyHeight\"\n        [selectionType]=\"selectionType\"\n        [emptyMessage]=\"messages.emptyMessage\"\n        [rowIdentity]=\"rowIdentity\"\n        [rowClass]=\"rowClass\"\n        [selectCheck]=\"selectCheck\"\n        [displayCheck]=\"displayCheck\"\n        (page)=\"onBodyPage($event)\"\n        (activate)=\"activate.emit($event)\"\n        (rowContextmenu)=\"onRowContextmenu($event)\"\n        (select)=\"onBodySelect($event)\"\n        (scroll)=\"onBodyScroll($event)\">\n      </datatable-body>\n      <datatable-footer\n        *ngIf=\"footerHeight\"\n        [rowCount]=\"rowCount\"\n        [pageSize]=\"pageSize\"\n        [offset]=\"offset\"\n        [footerHeight]=\"footerHeight\"\n        [footerTemplate]=\"footer\"\n        [totalMessage]=\"messages.totalMessage\"\n        [pagerLeftArrowIcon]=\"cssClasses.pagerLeftArrow\"\n        [pagerRightArrowIcon]=\"cssClasses.pagerRightArrow\"\n        [pagerPreviousIcon]=\"cssClasses.pagerPrevious\"\n        [selectedCount]=\"selected.length\"\n        [selectedMessage]=\"!!selectionType && messages.selectedMessage\"\n        [pagerNextIcon]=\"cssClasses.pagerNext\"\n        (page)=\"onFooterPage($event)\">\n      </datatable-footer>\n    </div>\n  ",
+            template: __webpack_require__("./src/components/datatable.component.html"),
             changeDetection: core_1.ChangeDetectionStrategy.OnPush,
             encapsulation: core_1.ViewEncapsulation.None,
             styles: [__webpack_require__("./src/components/datatable.component.scss")],
@@ -5119,6 +5175,13 @@ var DataTableFooterTemplateDirective = /** @class */ (function () {
 }());
 exports.DataTableFooterTemplateDirective = DataTableFooterTemplateDirective;
 
+
+/***/ }),
+
+/***/ "./src/components/footer/footer.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div\r\n    class=\"datatable-footer-inner\"\r\n    [ngClass]=\"{'selected-count': selectedMessage}\"\r\n    [style.height.px]=\"footerHeight\">\r\n    <ng-template\r\n        *ngIf=\"footerTemplate\"\r\n        [ngTemplateOutlet]=\"footerTemplate.template\"\r\n        [ngTemplateOutletContext]=\"{ \r\n            rowCount: rowCount, \r\n            pageSize: pageSize, \r\n            selectedCount: selectedCount,\r\n            curPage: curPage,\r\n            offset: offset\r\n        }\">\r\n    </ng-template>\r\n    <div class=\"page-count\" *ngIf=\"!footerTemplate\">\r\n        <span *ngIf=\"selectedMessage\">\r\n            {{selectedCount.toLocaleString()}} {{selectedMessage}} / \r\n        </span>\r\n        Showing {{pageSize}} of {{rowCount.toLocaleString()}} {{totalMessage}}\r\n    </div>\r\n    <datatable-pager *ngIf=\"!footerTemplate\"\r\n        [pagerLeftArrowIcon]=\"pagerLeftArrowIcon\"\r\n        [pagerRightArrowIcon]=\"pagerRightArrowIcon\"\r\n        [pagerPreviousIcon]=\"pagerPreviousIcon\"\r\n        [pagerNextIcon]=\"pagerNextIcon\"\r\n        [page]=\"curPage\"\r\n        [size]=\"pageSize\"\r\n        [count]=\"rowCount\"\r\n        [hidden]=\"!isVisible\"\r\n        (change)=\"page.emit($event)\">\r\n    </datatable-pager>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -5212,7 +5275,7 @@ var DataTableFooterComponent = /** @class */ (function () {
     DataTableFooterComponent = __decorate([
         core_1.Component({
             selector: 'datatable-footer',
-            template: "\n    <div\n      class=\"datatable-footer-inner\"\n      [ngClass]=\"{'selected-count': selectedMessage}\"\n      [style.height.px]=\"footerHeight\">\n      <ng-template\n        *ngIf=\"footerTemplate\"\n        [ngTemplateOutlet]=\"footerTemplate.template\"\n        [ngTemplateOutletContext]=\"{ \n          rowCount: rowCount, \n          pageSize: pageSize, \n          selectedCount: selectedCount,\n          curPage: curPage,\n          offset: offset\n        }\">\n      </ng-template>\n      <div class=\"page-count\" *ngIf=\"!footerTemplate\">\n        <span *ngIf=\"selectedMessage\">\n          {{selectedCount.toLocaleString()}} {{selectedMessage}} / \n        </span>\n        {{rowCount.toLocaleString()}} {{totalMessage}}\n      </div>\n      <datatable-pager *ngIf=\"!footerTemplate\"\n        [pagerLeftArrowIcon]=\"pagerLeftArrowIcon\"\n        [pagerRightArrowIcon]=\"pagerRightArrowIcon\"\n        [pagerPreviousIcon]=\"pagerPreviousIcon\"\n        [pagerNextIcon]=\"pagerNextIcon\"\n        [page]=\"curPage\"\n        [size]=\"pageSize\"\n        [count]=\"rowCount\"\n        [hidden]=\"!isVisible\"\n        (change)=\"page.emit($event)\">\n      </datatable-pager>\n    </div>\n  ",
+            template: __webpack_require__("./src/components/footer/footer.component.html"),
             host: {
                 class: 'datatable-footer'
             },
@@ -5299,173 +5362,16 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(__webpack_require__("./src/components/footer/footer.component.ts"));
-__export(__webpack_require__("./src/components/footer/pager.component.ts"));
 __export(__webpack_require__("./src/components/footer/footer.directive.ts"));
 __export(__webpack_require__("./src/components/footer/footer-template.directive.ts"));
 
 
 /***/ }),
 
-/***/ "./src/components/footer/pager.component.ts":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./src/components/header/header-cell.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__("@angular/core");
-var DataTablePagerComponent = /** @class */ (function () {
-    function DataTablePagerComponent() {
-        this.change = new core_1.EventEmitter();
-        this._count = 0;
-        this._page = 1;
-        this._size = 0;
-    }
-    Object.defineProperty(DataTablePagerComponent.prototype, "size", {
-        get: function () {
-            return this._size;
-        },
-        set: function (val) {
-            this._size = val;
-            this.pages = this.calcPages();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DataTablePagerComponent.prototype, "count", {
-        get: function () {
-            return this._count;
-        },
-        set: function (val) {
-            this._count = val;
-            this.pages = this.calcPages();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DataTablePagerComponent.prototype, "page", {
-        get: function () {
-            return this._page;
-        },
-        set: function (val) {
-            this._page = val;
-            this.pages = this.calcPages();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DataTablePagerComponent.prototype, "totalPages", {
-        get: function () {
-            var count = this.size < 1 ? 1 : Math.ceil(this.count / this.size);
-            return Math.max(count || 0, 1);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    DataTablePagerComponent.prototype.canPrevious = function () {
-        return this.page > 1;
-    };
-    DataTablePagerComponent.prototype.canNext = function () {
-        return this.page < this.totalPages;
-    };
-    DataTablePagerComponent.prototype.prevPage = function () {
-        this.selectPage(this.page - 1);
-    };
-    DataTablePagerComponent.prototype.nextPage = function () {
-        this.selectPage(this.page + 1);
-    };
-    DataTablePagerComponent.prototype.selectPage = function (page) {
-        if (page > 0 && page <= this.totalPages && page !== this.page) {
-            this.page = page;
-            this.change.emit({
-                page: page
-            });
-        }
-    };
-    DataTablePagerComponent.prototype.calcPages = function (page) {
-        var pages = [];
-        var startPage = 1;
-        var endPage = this.totalPages;
-        var maxSize = 5;
-        var isMaxSized = maxSize < this.totalPages;
-        page = page || this.page;
-        if (isMaxSized) {
-            startPage = page - Math.floor(maxSize / 2);
-            endPage = page + Math.floor(maxSize / 2);
-            if (startPage < 1) {
-                startPage = 1;
-                endPage = Math.min(startPage + maxSize - 1, this.totalPages);
-            }
-            else if (endPage > this.totalPages) {
-                startPage = Math.max(this.totalPages - maxSize + 1, 1);
-                endPage = this.totalPages;
-            }
-        }
-        for (var num = startPage; num <= endPage; num++) {
-            pages.push({
-                number: num,
-                text: num
-            });
-        }
-        return pages;
-    };
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DataTablePagerComponent.prototype, "pagerLeftArrowIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DataTablePagerComponent.prototype, "pagerRightArrowIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DataTablePagerComponent.prototype, "pagerPreviousIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DataTablePagerComponent.prototype, "pagerNextIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Number),
-        __metadata("design:paramtypes", [Number])
-    ], DataTablePagerComponent.prototype, "size", null);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Number),
-        __metadata("design:paramtypes", [Number])
-    ], DataTablePagerComponent.prototype, "count", null);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Number),
-        __metadata("design:paramtypes", [Number])
-    ], DataTablePagerComponent.prototype, "page", null);
-    __decorate([
-        core_1.Output(),
-        __metadata("design:type", core_1.EventEmitter)
-    ], DataTablePagerComponent.prototype, "change", void 0);
-    DataTablePagerComponent = __decorate([
-        core_1.Component({
-            selector: 'datatable-pager',
-            template: "\n    <ul class=\"pager\">\n      <li [class.disabled]=\"!canPrevious()\">\n        <a\n          href=\"javascript:void(0)\"\n          (click)=\"selectPage(1)\">\n          <i class=\"{{pagerPreviousIcon}}\"></i>\n        </a>\n      </li>\n      <li [class.disabled]=\"!canPrevious()\">\n        <a\n          href=\"javascript:void(0)\"\n          (click)=\"prevPage()\">\n          <i class=\"{{pagerLeftArrowIcon}}\"></i>\n        </a>\n      </li>\n      <li\n        class=\"pages\"\n        *ngFor=\"let pg of pages\"\n        [class.active]=\"pg.number === page\">\n        <a\n          href=\"javascript:void(0)\"\n          (click)=\"selectPage(pg.number)\">\n          {{pg.text}}\n        </a>\n      </li>\n      <li [class.disabled]=\"!canNext()\">\n        <a\n          href=\"javascript:void(0)\"\n          (click)=\"nextPage()\">\n          <i class=\"{{pagerRightArrowIcon}}\"></i>\n        </a>\n      </li>\n      <li [class.disabled]=\"!canNext()\">\n        <a\n          href=\"javascript:void(0)\"\n          (click)=\"selectPage(totalPages)\">\n          <i class=\"{{pagerNextIcon}}\"></i>\n        </a>\n      </li>\n    </ul>\n  ",
-            host: {
-                class: 'datatable-pager'
-            },
-            changeDetection: core_1.ChangeDetectionStrategy.OnPush
-        })
-    ], DataTablePagerComponent);
-    return DataTablePagerComponent;
-}());
-exports.DataTablePagerComponent = DataTablePagerComponent;
-
+module.exports = "<div>\r\n    <label\r\n        *ngIf=\"isCheckboxable\"\r\n        class=\"datatable-checkbox\">\r\n        <input\r\n        type=\"checkbox\"\r\n        [checked]=\"allRowsSelected\"\r\n        (change)=\"select.emit(!allRowsSelected)\"\r\n        />\r\n    </label>\r\n    <span\r\n        *ngIf=\"!column.headerTemplate\"\r\n        class=\"datatable-header-cell-wrapper\">\r\n        <span\r\n        class=\"datatable-header-cell-label draggable\"\r\n        (click)=\"onSort()\"\r\n        [innerHTML]=\"name\">\r\n        </span>\r\n    </span>\r\n    <ng-template\r\n        *ngIf=\"column.headerTemplate\"\r\n        [ngTemplateOutlet]=\"column.headerTemplate\"\r\n        [ngTemplateOutletContext]=\"cellContext\">\r\n    </ng-template>\r\n    <span\r\n        (click)=\"onSort()\"\r\n        [class]=\"sortClass\">\r\n    </span>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -5731,7 +5637,7 @@ var DataTableHeaderCellComponent = /** @class */ (function () {
     DataTableHeaderCellComponent = __decorate([
         core_1.Component({
             selector: 'datatable-header-cell',
-            template: "\n    <div>\n      <label\n        *ngIf=\"isCheckboxable\"\n        class=\"datatable-checkbox\">\n        <input\n          type=\"checkbox\"\n          [checked]=\"allRowsSelected\"\n          (change)=\"select.emit(!allRowsSelected)\"\n        />\n      </label>\n      <span\n        *ngIf=\"!column.headerTemplate\"\n        class=\"datatable-header-cell-wrapper\">\n        <span\n          class=\"datatable-header-cell-label draggable\"\n          (click)=\"onSort()\"\n          [innerHTML]=\"name\">\n        </span>\n      </span>\n      <ng-template\n        *ngIf=\"column.headerTemplate\"\n        [ngTemplateOutlet]=\"column.headerTemplate\"\n        [ngTemplateOutletContext]=\"cellContext\">\n      </ng-template>\n      <span\n        (click)=\"onSort()\"\n        [class]=\"sortClass\">\n      </span>\n    </div>\n  ",
+            template: __webpack_require__("./src/components/header/header-cell.component.html"),
             host: {
                 class: 'datatable-header-cell'
             },
@@ -5743,6 +5649,13 @@ var DataTableHeaderCellComponent = /** @class */ (function () {
 }());
 exports.DataTableHeaderCellComponent = DataTableHeaderCellComponent;
 
+
+/***/ }),
+
+/***/ "./src/components/header/header.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div\r\n    orderable\r\n    (reorder)=\"onColumnReordered($event)\"\r\n    [style.width.px]=\"columnGroupWidths.total\"\r\n    class=\"datatable-header-inner\">\r\n\r\n    <div\r\n        *ngFor=\"let colGroup of columnsByPin; trackBy: trackByGroups\"\r\n        [class]=\"'datatable-row-' + colGroup.type\"\r\n        [ngStyle]=\"stylesByGroup(colGroup.type)\">\r\n        <datatable-header-cell\r\n            *ngFor=\"let column of colGroup.columns; trackBy: columnTrackingFn\"\r\n            resizeable\r\n            [resizeEnabled]=\"column.resizeable\"\r\n            (resize)=\"onColumnResized($event, column)\"\r\n            long-press\r\n            [pressModel]=\"column\"\r\n            [pressEnabled]=\"reorderable && column.draggable\"\r\n            (longPressStart)=\"onLongPressStart($event)\"\r\n            (longPressEnd)=\"onLongPressEnd($event)\"\r\n            draggable\r\n            [dragX]=\"reorderable && column.draggable && column.dragging\"\r\n            [dragY]=\"false\"\r\n            [dragModel]=\"column\"\r\n            [dragEventTarget]=\"dragEventTarget\"\r\n            [headerHeight]=\"headerHeight\"\r\n            [column]=\"column\"\r\n            [sortType]=\"sortType\"\r\n            [sorts]=\"sorts\"\r\n            [selectionType]=\"selectionType\"\r\n            [sortAscendingIcon]=\"sortAscendingIcon\"\r\n            [sortDescendingIcon]=\"sortDescendingIcon\"\r\n            [allRowsSelected]=\"allRowsSelected\"\r\n            (sort)=\"onSort($event)\"\r\n            (select)=\"select.emit($event)\"\r\n            (columnContextmenu)=\"columnContextmenu.emit($event)\">\r\n        </datatable-header-cell>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -6011,7 +5924,7 @@ var DataTableHeaderComponent = /** @class */ (function () {
     DataTableHeaderComponent = __decorate([
         core_1.Component({
             selector: 'datatable-header',
-            template: "\n    <div\n      orderable\n      (reorder)=\"onColumnReordered($event)\"\n      [style.width.px]=\"columnGroupWidths.total\"\n      class=\"datatable-header-inner\">\n     \n      <div\n        *ngFor=\"let colGroup of columnsByPin; trackBy: trackByGroups\"\n        [class]=\"'datatable-row-' + colGroup.type\"\n        [ngStyle]=\"stylesByGroup(colGroup.type)\">\n        <datatable-header-cell\n          *ngFor=\"let column of colGroup.columns; trackBy: columnTrackingFn\"\n          resizeable\n          [resizeEnabled]=\"column.resizeable\"\n          (resize)=\"onColumnResized($event, column)\"\n          long-press\n          [pressModel]=\"column\"\n          [pressEnabled]=\"reorderable && column.draggable\"\n          (longPressStart)=\"onLongPressStart($event)\"\n          (longPressEnd)=\"onLongPressEnd($event)\"\n          draggable\n          [dragX]=\"reorderable && column.draggable && column.dragging\"\n          [dragY]=\"false\"\n          [dragModel]=\"column\"\n          [dragEventTarget]=\"dragEventTarget\"\n          [headerHeight]=\"headerHeight\"\n          [column]=\"column\"\n          [sortType]=\"sortType\"\n          [sorts]=\"sorts\"\n          [selectionType]=\"selectionType\"\n          [sortAscendingIcon]=\"sortAscendingIcon\"\n          [sortDescendingIcon]=\"sortDescendingIcon\"\n          [allRowsSelected]=\"allRowsSelected\"\n          (sort)=\"onSort($event)\"\n          (select)=\"select.emit($event)\"\n          (columnContextmenu)=\"columnContextmenu.emit($event)\">\n        </datatable-header-cell>\n      </div>\n    </div>\n  ",
+            template: __webpack_require__("./src/components/header/header.component.html"),
             host: {
                 class: 'datatable-header'
             }
@@ -6052,8 +5965,193 @@ __export(__webpack_require__("./src/components/datatable.component.ts"));
 __export(__webpack_require__("./src/components/header/index.ts"));
 __export(__webpack_require__("./src/components/body/index.ts"));
 __export(__webpack_require__("./src/components/footer/index.ts"));
+__export(__webpack_require__("./src/components/pager/index.ts"));
 __export(__webpack_require__("./src/components/columns/index.ts"));
 __export(__webpack_require__("./src/components/row-detail/index.ts"));
+
+
+/***/ }),
+
+/***/ "./src/components/pager/index.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(__webpack_require__("./src/components/pager/pager.component.ts"));
+
+
+/***/ }),
+
+/***/ "./src/components/pager/pager.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<ul class=\"pager\">\r\n    <li [class.disabled]=\"!canPrevious()\">\r\n        <a\r\n        href=\"javascript:void(0)\"\r\n        (click)=\"selectPage(1)\">\r\n        <i class=\"{{pagerPreviousIcon}}\"></i>\r\n        </a>\r\n    </li>\r\n    <li [class.disabled]=\"!canPrevious()\">\r\n        <a\r\n        href=\"javascript:void(0)\"\r\n        (click)=\"prevPage()\">\r\n        <i class=\"{{pagerLeftArrowIcon}}\"></i>\r\n        </a>\r\n    </li>\r\n    <li\r\n        class=\"pages\"\r\n        *ngFor=\"let pg of pages\"\r\n        [class.active]=\"pg.number === page\">\r\n        <a\r\n        href=\"javascript:void(0)\"\r\n        (click)=\"selectPage(pg.number)\">\r\n        {{pg.text}}\r\n        </a>\r\n    </li>\r\n    <li [class.disabled]=\"!canNext()\">\r\n        <a\r\n        href=\"javascript:void(0)\"\r\n        (click)=\"nextPage()\">\r\n        <i class=\"{{pagerRightArrowIcon}}\"></i>\r\n        </a>\r\n    </li>\r\n    <li [class.disabled]=\"!canNext()\">\r\n        <a\r\n        href=\"javascript:void(0)\"\r\n        (click)=\"selectPage(totalPages)\">\r\n        <i class=\"{{pagerNextIcon}}\"></i>\r\n        </a>\r\n    </li>\r\n</ul>\r\n"
+
+/***/ }),
+
+/***/ "./src/components/pager/pager.component.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__("@angular/core");
+var DataTablePagerComponent = /** @class */ (function () {
+    function DataTablePagerComponent() {
+        this.change = new core_1.EventEmitter();
+        this._count = 0;
+        this._page = 1;
+        this._size = 0;
+    }
+    Object.defineProperty(DataTablePagerComponent.prototype, "size", {
+        get: function () {
+            return this._size;
+        },
+        set: function (val) {
+            this._size = val;
+            this.pages = this.calcPages();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTablePagerComponent.prototype, "count", {
+        get: function () {
+            return this._count;
+        },
+        set: function (val) {
+            this._count = val;
+            this.pages = this.calcPages();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTablePagerComponent.prototype, "page", {
+        get: function () {
+            return this._page;
+        },
+        set: function (val) {
+            this._page = val;
+            this.pages = this.calcPages();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTablePagerComponent.prototype, "totalPages", {
+        get: function () {
+            var count = this.size < 1 ? 1 : Math.ceil(this.count / this.size);
+            return Math.max(count || 0, 1);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    DataTablePagerComponent.prototype.canPrevious = function () {
+        return this.page > 1;
+    };
+    DataTablePagerComponent.prototype.canNext = function () {
+        return this.page < this.totalPages;
+    };
+    DataTablePagerComponent.prototype.prevPage = function () {
+        this.selectPage(this.page - 1);
+    };
+    DataTablePagerComponent.prototype.nextPage = function () {
+        this.selectPage(this.page + 1);
+    };
+    DataTablePagerComponent.prototype.selectPage = function (page) {
+        if (page > 0 && page <= this.totalPages && page !== this.page) {
+            this.page = page;
+            this.change.emit({
+                page: page
+            });
+        }
+    };
+    DataTablePagerComponent.prototype.calcPages = function (page) {
+        var pages = [];
+        var startPage = 1;
+        var endPage = this.totalPages;
+        var maxSize = 5;
+        var isMaxSized = maxSize < this.totalPages;
+        page = page || this.page;
+        if (isMaxSized) {
+            startPage = page - Math.floor(maxSize / 2);
+            endPage = page + Math.floor(maxSize / 2);
+            if (startPage < 1) {
+                startPage = 1;
+                endPage = Math.min(startPage + maxSize - 1, this.totalPages);
+            }
+            else if (endPage > this.totalPages) {
+                startPage = Math.max(this.totalPages - maxSize + 1, 1);
+                endPage = this.totalPages;
+            }
+        }
+        for (var num = startPage; num <= endPage; num++) {
+            pages.push({
+                number: num,
+                text: num
+            });
+        }
+        return pages;
+    };
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DataTablePagerComponent.prototype, "pagerLeftArrowIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DataTablePagerComponent.prototype, "pagerRightArrowIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DataTablePagerComponent.prototype, "pagerPreviousIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DataTablePagerComponent.prototype, "pagerNextIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number),
+        __metadata("design:paramtypes", [Number])
+    ], DataTablePagerComponent.prototype, "size", null);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number),
+        __metadata("design:paramtypes", [Number])
+    ], DataTablePagerComponent.prototype, "count", null);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number),
+        __metadata("design:paramtypes", [Number])
+    ], DataTablePagerComponent.prototype, "page", null);
+    __decorate([
+        core_1.Output(),
+        __metadata("design:type", core_1.EventEmitter)
+    ], DataTablePagerComponent.prototype, "change", void 0);
+    DataTablePagerComponent = __decorate([
+        core_1.Component({
+            selector: 'datatable-pager',
+            template: __webpack_require__("./src/components/pager/pager.component.html"),
+            host: {
+                class: 'datatable-pager'
+            },
+            changeDetection: core_1.ChangeDetectionStrategy.OnPush
+        })
+    ], DataTablePagerComponent);
+    return DataTablePagerComponent;
+}());
+exports.DataTablePagerComponent = DataTablePagerComponent;
 
 
 /***/ }),

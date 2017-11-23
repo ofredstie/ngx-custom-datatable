@@ -5,6 +5,8 @@ bootstrap table theme
   box-shadow: none;
   font-size: 13px; }
   .ngx-datatable.bootstrap .datatable-header {
+    background: #cccccc;
+    font-weight: bold;
     height: unset !important; }
     .ngx-datatable.bootstrap .datatable-header .datatable-header-cell {
       vertical-align: bottom;

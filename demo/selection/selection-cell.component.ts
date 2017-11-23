@@ -18,7 +18,7 @@ import { Component } from '@angular/core';
         [columnMode]="'force'"
         [columns]="columns"
         [headerHeight]="50"
-        [footerHeight]="50"
+        [paginationHeight]="50"
         [rowHeight]="50"
         [selected]="selected"
         [selectionType]="'cell'"

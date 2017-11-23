@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'footer-demo',
+  selector: 'pagination-demo',
   template: `
     <div>
       <h3>
-        Custom Footer
+        Custom Pagination
         <small>
           <a href="https://github.com/swimlane/ngx-datatable/blob/master/demo/basic/footer.component.ts" target="_blank">
             Source
@@ -17,12 +17,12 @@ import { Component } from '@angular/core';
         [rows]="rows"
         [columns]="columns"
         [columnMode]="'force'"
-        [footerHeight]="100"
+        [paginationHeight]="100"
         [headerHeight]="50"
         [rowHeight]="'auto'">
-        <ngx-datatable-footer>
+        <ngx-datatable-pagination>
           <ng-template 
-            ngx-datatable-footer-template 
+            ngx-datatable-pagination-template 
             let-rowCount="rowCount"
             let-pageSize="pageSize"
             let-selectedCount="selectedCount"
@@ -41,12 +41,12 @@ import { Component } from '@angular/core';
               </div>
             </div>
           </ng-template>
-        </ngx-datatable-footer>
+        </ngx-datatable-pagination>
       </ngx-datatable>
     </div>
   `
 })
-export class FooterDemoComponent {
+export class PaginationDemoComponent {
 
   rows = [];
 

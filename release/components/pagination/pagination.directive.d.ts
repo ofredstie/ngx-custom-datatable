@@ -1,6 +1,6 @@
 import { TemplateRef } from '@angular/core';
-export declare class DatatableFooterDirective {
-    footerHeight: number;
+export declare class DatatablePaginationDirective {
+    paginationHeight: number;
     totalMessage: string;
     selectedMessage: string | boolean;
     pagerLeftArrowIcon: string;

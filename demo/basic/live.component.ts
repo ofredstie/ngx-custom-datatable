@@ -24,7 +24,7 @@ import { Component, ViewChild, ChangeDetectorRef } from '@angular/core';
         [headerHeight]="50"
         [limit]="5"
         [columnMode]="'force'"
-        [footerHeight]="50"
+        [paginationHeight]="50"
         [rowHeight]="'auto'"
         [trackByProp]="'updated'"
         [rows]="rows">

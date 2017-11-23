@@ -88,7 +88,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".ngx-datatable {\n  display: block;\n  overflow: hidden;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  position: relative;\n  -webkit-transform: translate3d(0, 0, 0);\n  /**\r\n   * Vertical Scrolling Adjustments\r\n   */\n  /**\r\n   * Horizontal Scrolling Adjustments\r\n   */\n  /**\r\n   * Fixed Header Height Adjustments\r\n   */\n  /**\r\n   * Fixed row height adjustments\r\n   */\n  /**\r\n   * Shared Styles\r\n   */\n  /**\r\n   * Header Styles\r\n   */\n  /**\r\n   * Body Styles\r\n   */\n  /**\r\n   * Footer Styles\r\n   */ }\n  .ngx-datatable [hidden] {\n    display: none !important; }\n  .ngx-datatable *, .ngx-datatable *:before, .ngx-datatable *:after {\n    -webkit-box-sizing: border-box;\n    box-sizing: border-box; }\n  .ngx-datatable.scroll-vertical .datatable-body {\n    overflow-y: auto; }\n    .ngx-datatable.scroll-vertical .datatable-body .datatable-row-wrapper {\n      position: absolute; }\n  .ngx-datatable.scroll-horz .datatable-body {\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch; }\n  .ngx-datatable.fixed-header .datatable-header .datatable-header-inner {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-header .datatable-header .datatable-header-inner .datatable-header-cell {\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n  .ngx-datatable.fixed-row .datatable-scroll {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row {\n      white-space: nowrap; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-group-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n  .ngx-datatable .datatable-body-row,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-header-inner {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -ms-flex-flow: row;\n    -o-flex-flow: row;\n    flex-flow: row; }\n  .ngx-datatable .datatable-body-cell,\n  .ngx-datatable .datatable-header-cell {\n    overflow-x: hidden;\n    vertical-align: top;\n    display: inline-block;\n    line-height: 1.625; }\n    .ngx-datatable .datatable-body-cell:focus,\n    .ngx-datatable .datatable-header-cell:focus {\n      outline: none; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-right {\n    z-index: 9; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-row-group,\n  .ngx-datatable .datatable-row-right {\n    position: relative; }\n  .ngx-datatable .datatable-header {\n    display: block;\n    overflow: hidden; }\n    .ngx-datatable .datatable-header .datatable-header-inner {\n      -webkit-box-align: stretch;\n          -ms-flex-align: stretch;\n              align-items: stretch;\n      -webkit-align-items: stretch; }\n    .ngx-datatable .datatable-header .datatable-header-cell {\n      position: relative;\n      display: inline-block; }\n      .ngx-datatable .datatable-header .datatable-header-cell.sortable .datatable-header-cell-wrapper {\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell.longpress .datatable-header-cell-wrapper {\n        cursor: move; }\n      .ngx-datatable .datatable-header .datatable-header-cell .sort-btn {\n        line-height: 100%;\n        vertical-align: middle;\n        display: inline-block;\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell .resize-handle {\n        display: inline-block;\n        position: absolute;\n        right: 0;\n        top: 0;\n        bottom: 0;\n        width: 5px;\n        padding: 0 4px;\n        visibility: hidden;\n        cursor: ew-resize; }\n      .ngx-datatable .datatable-header .datatable-header-cell.resizeable:hover .resize-handle {\n        visibility: visible; }\n  .ngx-datatable .datatable-body {\n    position: relative;\n    z-index: 10;\n    display: block; }\n    .ngx-datatable .datatable-body .datatable-scroll {\n      display: inline-block; }\n    .ngx-datatable .datatable-body .datatable-row-detail {\n      overflow-y: hidden; }\n    .ngx-datatable .datatable-body .datatable-row-wrapper {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n      flex-direction: column; }\n    .ngx-datatable .datatable-body .datatable-body-row {\n      outline: none; }\n      .ngx-datatable .datatable-body .datatable-body-row > div {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex; }\n  .ngx-datatable .datatable-footer {\n    display: block;\n    width: 100%; }\n    .ngx-datatable .datatable-footer .datatable-footer-inner {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      width: 100%; }\n    .ngx-datatable .datatable-footer .selected-count .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 40%;\n              flex: 1 1 40%; }\n    .ngx-datatable .datatable-footer .selected-count .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 60%;\n              flex: 1 1 60%; }\n    .ngx-datatable .datatable-footer .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 20%;\n              flex: 1 1 20%; }\n    .ngx-datatable .datatable-footer .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 80%;\n              flex: 1 1 80%;\n      text-align: right; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager,\n      .ngx-datatable .datatable-footer .datatable-pager .pager li {\n        padding: 0;\n        margin: 0;\n        display: inline-block;\n        list-style: none; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li, .ngx-datatable .datatable-footer .datatable-pager .pager li a {\n        outline: none; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li a {\n        cursor: pointer;\n        display: inline-block; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li.disabled a {\n        cursor: not-allowed; }\n", ""]);
+exports.push([module.i, ".ngx-datatable {\n  display: block;\n  overflow: hidden;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  position: relative;\n  -webkit-transform: translate3d(0, 0, 0);\n  /**\r\n   * Vertical Scrolling Adjustments\r\n   */\n  /**\r\n   * Horizontal Scrolling Adjustments\r\n   */\n  /**\r\n   * Fixed Header Height Adjustments\r\n   */\n  /**\r\n   * Fixed row height adjustments\r\n   */\n  /**\r\n   * Shared Styles\r\n   */\n  /**\r\n   * Header Styles\r\n   */\n  /**\r\n   * Body Styles\r\n   */\n  /**\r\n   * Pagination Styles\r\n   */ }\n  .ngx-datatable [hidden] {\n    display: none !important; }\n  .ngx-datatable *, .ngx-datatable *:before, .ngx-datatable *:after {\n    -webkit-box-sizing: border-box;\n    box-sizing: border-box; }\n  .ngx-datatable.scroll-vertical .datatable-body {\n    overflow-y: auto; }\n    .ngx-datatable.scroll-vertical .datatable-body .datatable-row-wrapper {\n      position: absolute; }\n  .ngx-datatable.scroll-horz .datatable-body {\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch; }\n  .ngx-datatable.fixed-header .datatable-header .datatable-header-inner {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-header .datatable-header .datatable-header-inner .datatable-header-cell {\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n  .ngx-datatable.fixed-row .datatable-scroll {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row {\n      white-space: nowrap; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-group-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n  .ngx-datatable .datatable-body-row,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-header-inner {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -ms-flex-flow: row;\n    -o-flex-flow: row;\n    flex-flow: row; }\n  .ngx-datatable .datatable-body-cell,\n  .ngx-datatable .datatable-header-cell {\n    overflow-x: hidden;\n    vertical-align: top;\n    display: inline-block;\n    line-height: 1.625; }\n    .ngx-datatable .datatable-body-cell:focus,\n    .ngx-datatable .datatable-header-cell:focus {\n      outline: none; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-right {\n    z-index: 9; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-row-group,\n  .ngx-datatable .datatable-row-right {\n    position: relative; }\n  .ngx-datatable .datatable-header {\n    display: block;\n    overflow: hidden; }\n    .ngx-datatable .datatable-header .datatable-header-inner {\n      -webkit-box-align: stretch;\n          -ms-flex-align: stretch;\n              align-items: stretch;\n      -webkit-align-items: stretch; }\n    .ngx-datatable .datatable-header .datatable-header-cell {\n      position: relative;\n      display: inline-block; }\n      .ngx-datatable .datatable-header .datatable-header-cell.sortable .datatable-header-cell-wrapper {\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell.longpress .datatable-header-cell-wrapper {\n        cursor: move; }\n      .ngx-datatable .datatable-header .datatable-header-cell .sort-btn {\n        line-height: 100%;\n        vertical-align: middle;\n        display: inline-block;\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell .resize-handle {\n        display: inline-block;\n        position: absolute;\n        right: 0;\n        top: 0;\n        bottom: 0;\n        width: 5px;\n        padding: 0 4px;\n        visibility: hidden;\n        cursor: ew-resize; }\n      .ngx-datatable .datatable-header .datatable-header-cell.resizeable:hover .resize-handle {\n        visibility: visible; }\n  .ngx-datatable .datatable-body {\n    position: relative;\n    z-index: 10;\n    display: block; }\n    .ngx-datatable .datatable-body .datatable-scroll {\n      display: inline-block; }\n    .ngx-datatable .datatable-body .datatable-row-detail {\n      overflow-y: hidden; }\n    .ngx-datatable .datatable-body .datatable-row-wrapper {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n      flex-direction: column; }\n    .ngx-datatable .datatable-body .datatable-body-row {\n      outline: none; }\n      .ngx-datatable .datatable-body .datatable-body-row > div {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex; }\n  .ngx-datatable .datatable-pagination {\n    display: block;\n    width: 100%; }\n    .ngx-datatable .datatable-pagination .datatable-pagination-inner {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      width: 100%; }\n    .ngx-datatable .datatable-pagination .selected-count .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 40%;\n              flex: 1 1 40%; }\n    .ngx-datatable .datatable-pagination .selected-count .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 60%;\n              flex: 1 1 60%; }\n    .ngx-datatable .datatable-pagination .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 20%;\n              flex: 1 1 20%; }\n    .ngx-datatable .datatable-pagination .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 80%;\n              flex: 1 1 80%;\n      text-align: right; }\n      .ngx-datatable .datatable-pagination .datatable-pager .pager,\n      .ngx-datatable .datatable-pagination .datatable-pager .pager li {\n        padding: 0;\n        margin: 0;\n        display: inline-block;\n        list-style: none; }\n      .ngx-datatable .datatable-pagination .datatable-pager .pager li, .ngx-datatable .datatable-pagination .datatable-pager .pager li a {\n        outline: none; }\n      .ngx-datatable .datatable-pagination .datatable-pager .pager li a {\n        cursor: pointer;\n        display: inline-block; }\n      .ngx-datatable .datatable-pagination .datatable-pager .pager li.disabled a {\n        cursor: not-allowed; }\n", ""]);
 
 // exports
 
@@ -4107,7 +4107,7 @@ __export(__webpack_require__("./src/components/columns/column-cell.directive.ts"
 /***/ "./src/components/datatable.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div\r\nvisibilityObserver\r\n(visible)=\"recalculate()\">\r\n    <datatable-header\r\n    *ngIf=\"headerHeight\"\r\n    [sorts]=\"sorts\"\r\n    [sortType]=\"sortType\"\r\n    [scrollbarH]=\"scrollbarH\"\r\n    [innerWidth]=\"innerWidth\"\r\n    [offsetX]=\"offsetX\"\r\n    [dealsWithGroup]=\"groupedRows\"\r\n    [columns]=\"_internalColumns\"\r\n    [headerHeight]=\"headerHeight\"\r\n    [reorderable]=\"reorderable\"\r\n    [sortAscendingIcon]=\"cssClasses.sortAscending\"\r\n    [sortDescendingIcon]=\"cssClasses.sortDescending\"\r\n    [allRowsSelected]=\"allRowsSelected\"\r\n    [selectionType]=\"selectionType\"\r\n    (sort)=\"onColumnSort($event)\"\r\n    (resize)=\"onColumnResize($event)\"\r\n    (reorder)=\"onColumnReorder($event)\"\r\n    (select)=\"onHeaderSelect($event)\"\r\n    (columnContextmenu)=\"onColumnContextmenu($event)\">\r\n    </datatable-header>\r\n    <datatable-body\r\n    [groupRowsBy]=\"groupRowsBy\"\r\n    [groupedRows]=\"groupedRows\"\r\n    [rows]=\"_internalRows\"\r\n    [groupExpansionDefault]=\"groupExpansionDefault\"\r\n    [scrollbarV]=\"scrollbarV\"\r\n    [scrollbarH]=\"scrollbarH\"\r\n    [loadingIndicator]=\"loadingIndicator\"\r\n    [externalPaging]=\"externalPaging\"\r\n    [rowHeight]=\"rowHeight\"\r\n    [rowCount]=\"rowCount\"\r\n    [offset]=\"offset\"\r\n    [trackByProp]=\"trackByProp\"\r\n    [columns]=\"_internalColumns\"\r\n    [pageSize]=\"pageSize\"\r\n    [offsetX]=\"offsetX\"\r\n    [rowDetail]=\"rowDetail\"\r\n    [groupHeader]=\"groupHeader\"\r\n    [selected]=\"selected\"\r\n    [innerWidth]=\"innerWidth\"\r\n    [bodyHeight]=\"bodyHeight\"\r\n    [selectionType]=\"selectionType\"\r\n    [emptyMessage]=\"messages.emptyMessage\"\r\n    [rowIdentity]=\"rowIdentity\"\r\n    [rowClass]=\"rowClass\"\r\n    [selectCheck]=\"selectCheck\"\r\n    [displayCheck]=\"displayCheck\"\r\n    (page)=\"onBodyPage($event)\"\r\n    (activate)=\"activate.emit($event)\"\r\n    (rowContextmenu)=\"onRowContextmenu($event)\"\r\n    (select)=\"onBodySelect($event)\"\r\n    (scroll)=\"onBodyScroll($event)\">\r\n    </datatable-body>\r\n    <datatable-footer\r\n    *ngIf=\"footerHeight\"\r\n    [rowCount]=\"rowCount\"\r\n    [pageSize]=\"pageSize\"\r\n    [offset]=\"offset\"\r\n    [footerHeight]=\"footerHeight\"\r\n    [footerTemplate]=\"footer\"\r\n    [totalMessage]=\"messages.totalMessage\"\r\n    [pagerLeftArrowIcon]=\"cssClasses.pagerLeftArrow\"\r\n    [pagerRightArrowIcon]=\"cssClasses.pagerRightArrow\"\r\n    [pagerPreviousIcon]=\"cssClasses.pagerPrevious\"\r\n    [selectedCount]=\"selected.length\"\r\n    [selectedMessage]=\"!!selectionType && messages.selectedMessage\"\r\n    [pagerNextIcon]=\"cssClasses.pagerNext\"\r\n    (page)=\"onFooterPage($event)\">\r\n    </datatable-footer>\r\n</div>\r\n"
+module.exports = "<div\r\nvisibilityObserver\r\n(visible)=\"recalculate()\">\r\n    <datatable-header\r\n    *ngIf=\"headerHeight\"\r\n    [sorts]=\"sorts\"\r\n    [sortType]=\"sortType\"\r\n    [scrollbarH]=\"scrollbarH\"\r\n    [innerWidth]=\"innerWidth\"\r\n    [offsetX]=\"offsetX\"\r\n    [dealsWithGroup]=\"groupedRows\"\r\n    [columns]=\"_internalColumns\"\r\n    [headerHeight]=\"headerHeight\"\r\n    [reorderable]=\"reorderable\"\r\n    [sortAscendingIcon]=\"cssClasses.sortAscending\"\r\n    [sortDescendingIcon]=\"cssClasses.sortDescending\"\r\n    [allRowsSelected]=\"allRowsSelected\"\r\n    [selectionType]=\"selectionType\"\r\n    (sort)=\"onColumnSort($event)\"\r\n    (resize)=\"onColumnResize($event)\"\r\n    (reorder)=\"onColumnReorder($event)\"\r\n    (select)=\"onHeaderSelect($event)\"\r\n    (columnContextmenu)=\"onColumnContextmenu($event)\">\r\n    </datatable-header>\r\n    <datatable-body\r\n    [groupRowsBy]=\"groupRowsBy\"\r\n    [groupedRows]=\"groupedRows\"\r\n    [rows]=\"_internalRows\"\r\n    [groupExpansionDefault]=\"groupExpansionDefault\"\r\n    [scrollbarV]=\"scrollbarV\"\r\n    [scrollbarH]=\"scrollbarH\"\r\n    [loadingIndicator]=\"loadingIndicator\"\r\n    [externalPaging]=\"externalPaging\"\r\n    [rowHeight]=\"rowHeight\"\r\n    [rowCount]=\"rowCount\"\r\n    [offset]=\"offset\"\r\n    [trackByProp]=\"trackByProp\"\r\n    [columns]=\"_internalColumns\"\r\n    [pageSize]=\"pageSize\"\r\n    [offsetX]=\"offsetX\"\r\n    [rowDetail]=\"rowDetail\"\r\n    [groupHeader]=\"groupHeader\"\r\n    [selected]=\"selected\"\r\n    [innerWidth]=\"innerWidth\"\r\n    [bodyHeight]=\"bodyHeight\"\r\n    [selectionType]=\"selectionType\"\r\n    [emptyMessage]=\"messages.emptyMessage\"\r\n    [rowIdentity]=\"rowIdentity\"\r\n    [rowClass]=\"rowClass\"\r\n    [selectCheck]=\"selectCheck\"\r\n    [displayCheck]=\"displayCheck\"\r\n    (page)=\"onBodyPage($event)\"\r\n    (activate)=\"activate.emit($event)\"\r\n    (rowContextmenu)=\"onRowContextmenu($event)\"\r\n    (select)=\"onBodySelect($event)\"\r\n    (scroll)=\"onBodyScroll($event)\">\r\n    </datatable-body>\r\n    <datatable-pagination\r\n    *ngIf=\"paginationHeight\"\r\n    [rowCount]=\"rowCount\"\r\n    [pageSize]=\"pageSize\"\r\n    [offset]=\"offset\"\r\n    [paginationHeight]=\"paginationHeight\"\r\n    [paginationTemplate]=\"pagination\"\r\n    [totalMessage]=\"messages.totalMessage\"\r\n    [pagerLeftArrowIcon]=\"cssClasses.pagerLeftArrow\"\r\n    [pagerRightArrowIcon]=\"cssClasses.pagerRightArrow\"\r\n    [pagerPreviousIcon]=\"cssClasses.pagerPrevious\"\r\n    [selectedCount]=\"selected.length\"\r\n    [selectedMessage]=\"!!selectionType && messages.selectedMessage\"\r\n    [pagerNextIcon]=\"cssClasses.pagerNext\"\r\n    (page)=\"onPaginationPage($event)\">\r\n    </datatable-pagination>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -4157,7 +4157,7 @@ var body_1 = __webpack_require__("./src/components/body/index.ts");
 var body_group_header_directive_1 = __webpack_require__("./src/components/body/body-group-header.directive.ts");
 var columns_1 = __webpack_require__("./src/components/columns/index.ts");
 var row_detail_1 = __webpack_require__("./src/components/row-detail/index.ts");
-var footer_1 = __webpack_require__("./src/components/footer/index.ts");
+var pagination_1 = __webpack_require__("./src/components/pagination/index.ts");
 var DatatableComponent = /** @class */ (function () {
     function DatatableComponent(scrollbarHelper, cd, element, differs) {
         this.scrollbarHelper = scrollbarHelper;
@@ -4192,10 +4192,10 @@ var DatatableComponent = /** @class */ (function () {
          */
         this.headerHeight = 30;
         /**
-         * The minimum footer height in pixels.
-         * Pass falsey for no footer
+         * The minimum pagination height in pixels.
+         * Pass falsey for no pagination
          */
-        this.footerHeight = 0;
+        this.paginationHeight = 0;
         /**
          * If the table should use external paging
          * otherwise its assumed that all data is preloaded.
@@ -4247,9 +4247,9 @@ var DatatableComponent = /** @class */ (function () {
             // Message to show when array is presented
             // but contains no values
             emptyMessage: 'No data to display',
-            // Footer total message
+            // Pagination total message
             totalMessage: 'total',
-            // Footer selected message
+            // Pagination selected message
             selectedMessage: 'selected'
         };
         /**
@@ -4706,8 +4706,8 @@ var DatatableComponent = /** @class */ (function () {
             var height = dims.height;
             if (this.headerHeight)
                 height = height - this.headerHeight;
-            if (this.footerHeight)
-                height = height - this.footerHeight;
+            if (this.paginationHeight)
+                height = height - this.paginationHeight;
             this.bodyHeight = height;
         }
         this.recalculatePages();
@@ -4740,9 +4740,9 @@ var DatatableComponent = /** @class */ (function () {
         this.scroll.emit(event);
     };
     /**
-     * The footer triggered a page event.
+     * The Pagination triggered a page event.
      */
-    DatatableComponent.prototype.onFooterPage = function (event) {
+    DatatableComponent.prototype.onPaginationPage = function (event) {
         this.offset = event.page - 1;
         this.bodyComponent.updateOffsetY(this.offset);
         this.page.emit({
@@ -4938,7 +4938,7 @@ var DatatableComponent = /** @class */ (function () {
     __decorate([
         core_1.Input(),
         __metadata("design:type", Number)
-    ], DatatableComponent.prototype, "footerHeight", void 0);
+    ], DatatableComponent.prototype, "paginationHeight", void 0);
     __decorate([
         core_1.Input(),
         __metadata("design:type", Boolean)
@@ -5110,9 +5110,9 @@ var DatatableComponent = /** @class */ (function () {
         __metadata("design:type", body_group_header_directive_1.DatatableGroupHeaderDirective)
     ], DatatableComponent.prototype, "groupHeader", void 0);
     __decorate([
-        core_1.ContentChild(footer_1.DatatableFooterDirective),
-        __metadata("design:type", footer_1.DatatableFooterDirective)
-    ], DatatableComponent.prototype, "footer", void 0);
+        core_1.ContentChild(pagination_1.DatatablePaginationDirective),
+        __metadata("design:type", pagination_1.DatatablePaginationDirective)
+    ], DatatableComponent.prototype, "pagination", void 0);
     __decorate([
         core_1.ViewChild(body_1.DataTableBodyComponent),
         __metadata("design:type", body_1.DataTableBodyComponent)
@@ -5143,227 +5143,6 @@ var DatatableComponent = /** @class */ (function () {
     return DatatableComponent;
 }());
 exports.DatatableComponent = DatatableComponent;
-
-
-/***/ }),
-
-/***/ "./src/components/footer/footer-template.directive.ts":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__("@angular/core");
-var DataTableFooterTemplateDirective = /** @class */ (function () {
-    function DataTableFooterTemplateDirective(template) {
-        this.template = template;
-    }
-    DataTableFooterTemplateDirective = __decorate([
-        core_1.Directive({ selector: '[ngx-datatable-footer-template]' }),
-        __metadata("design:paramtypes", [core_1.TemplateRef])
-    ], DataTableFooterTemplateDirective);
-    return DataTableFooterTemplateDirective;
-}());
-exports.DataTableFooterTemplateDirective = DataTableFooterTemplateDirective;
-
-
-/***/ }),
-
-/***/ "./src/components/footer/footer.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<div\r\n    class=\"datatable-footer-inner\"\r\n    [ngClass]=\"{'selected-count': selectedMessage}\"\r\n    [style.height.px]=\"footerHeight\">\r\n    <ng-template\r\n        *ngIf=\"footerTemplate\"\r\n        [ngTemplateOutlet]=\"footerTemplate.template\"\r\n        [ngTemplateOutletContext]=\"{ \r\n            rowCount: rowCount, \r\n            pageSize: pageSize, \r\n            selectedCount: selectedCount,\r\n            curPage: curPage,\r\n            offset: offset\r\n        }\">\r\n    </ng-template>\r\n    <div class=\"page-count\" *ngIf=\"!footerTemplate\">\r\n        <span *ngIf=\"selectedMessage\">\r\n            {{selectedCount.toLocaleString()}} {{selectedMessage}} / \r\n        </span>\r\n        Showing {{pageSize}} of {{rowCount.toLocaleString()}} {{totalMessage}}\r\n    </div>\r\n    <datatable-pager *ngIf=\"!footerTemplate\"\r\n        [pagerLeftArrowIcon]=\"pagerLeftArrowIcon\"\r\n        [pagerRightArrowIcon]=\"pagerRightArrowIcon\"\r\n        [pagerPreviousIcon]=\"pagerPreviousIcon\"\r\n        [pagerNextIcon]=\"pagerNextIcon\"\r\n        [page]=\"curPage\"\r\n        [size]=\"pageSize\"\r\n        [count]=\"rowCount\"\r\n        [hidden]=\"!isVisible\"\r\n        (change)=\"page.emit($event)\">\r\n    </datatable-pager>\r\n</div>\r\n"
-
-/***/ }),
-
-/***/ "./src/components/footer/footer.component.ts":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__("@angular/core");
-var DataTableFooterComponent = /** @class */ (function () {
-    function DataTableFooterComponent() {
-        this.selectedCount = 0;
-        this.page = new core_1.EventEmitter();
-    }
-    Object.defineProperty(DataTableFooterComponent.prototype, "isVisible", {
-        get: function () {
-            return (this.rowCount / this.pageSize) > 1;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DataTableFooterComponent.prototype, "curPage", {
-        get: function () {
-            return this.offset + 1;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Number)
-    ], DataTableFooterComponent.prototype, "footerHeight", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Number)
-    ], DataTableFooterComponent.prototype, "rowCount", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Number)
-    ], DataTableFooterComponent.prototype, "pageSize", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Number)
-    ], DataTableFooterComponent.prototype, "offset", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DataTableFooterComponent.prototype, "pagerLeftArrowIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DataTableFooterComponent.prototype, "pagerRightArrowIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DataTableFooterComponent.prototype, "pagerPreviousIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DataTableFooterComponent.prototype, "pagerNextIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DataTableFooterComponent.prototype, "totalMessage", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", core_1.TemplateRef)
-    ], DataTableFooterComponent.prototype, "footerTemplate", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Number)
-    ], DataTableFooterComponent.prototype, "selectedCount", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Object)
-    ], DataTableFooterComponent.prototype, "selectedMessage", void 0);
-    __decorate([
-        core_1.Output(),
-        __metadata("design:type", core_1.EventEmitter)
-    ], DataTableFooterComponent.prototype, "page", void 0);
-    DataTableFooterComponent = __decorate([
-        core_1.Component({
-            selector: 'datatable-footer',
-            template: __webpack_require__("./src/components/footer/footer.component.html"),
-            host: {
-                class: 'datatable-footer'
-            },
-            changeDetection: core_1.ChangeDetectionStrategy.OnPush
-        })
-    ], DataTableFooterComponent);
-    return DataTableFooterComponent;
-}());
-exports.DataTableFooterComponent = DataTableFooterComponent;
-
-
-/***/ }),
-
-/***/ "./src/components/footer/footer.directive.ts":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__("@angular/core");
-var footer_template_directive_1 = __webpack_require__("./src/components/footer/footer-template.directive.ts");
-var DatatableFooterDirective = /** @class */ (function () {
-    function DatatableFooterDirective() {
-    }
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Number)
-    ], DatatableFooterDirective.prototype, "footerHeight", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DatatableFooterDirective.prototype, "totalMessage", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", Object)
-    ], DatatableFooterDirective.prototype, "selectedMessage", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DatatableFooterDirective.prototype, "pagerLeftArrowIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DatatableFooterDirective.prototype, "pagerRightArrowIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DatatableFooterDirective.prototype, "pagerPreviousIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        __metadata("design:type", String)
-    ], DatatableFooterDirective.prototype, "pagerNextIcon", void 0);
-    __decorate([
-        core_1.Input(),
-        core_1.ContentChild(footer_template_directive_1.DataTableFooterTemplateDirective, { read: core_1.TemplateRef }),
-        __metadata("design:type", core_1.TemplateRef)
-    ], DatatableFooterDirective.prototype, "template", void 0);
-    DatatableFooterDirective = __decorate([
-        core_1.Directive({ selector: 'ngx-datatable-footer' })
-    ], DatatableFooterDirective);
-    return DatatableFooterDirective;
-}());
-exports.DatatableFooterDirective = DatatableFooterDirective;
-
-
-/***/ }),
-
-/***/ "./src/components/footer/index.ts":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__("./src/components/footer/footer.component.ts"));
-__export(__webpack_require__("./src/components/footer/footer.directive.ts"));
-__export(__webpack_require__("./src/components/footer/footer-template.directive.ts"));
 
 
 /***/ }),
@@ -5964,7 +5743,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(__webpack_require__("./src/components/datatable.component.ts"));
 __export(__webpack_require__("./src/components/header/index.ts"));
 __export(__webpack_require__("./src/components/body/index.ts"));
-__export(__webpack_require__("./src/components/footer/index.ts"));
+__export(__webpack_require__("./src/components/pagination/index.ts"));
 __export(__webpack_require__("./src/components/pager/index.ts"));
 __export(__webpack_require__("./src/components/columns/index.ts"));
 __export(__webpack_require__("./src/components/row-detail/index.ts"));
@@ -6156,6 +5935,227 @@ exports.DataTablePagerComponent = DataTablePagerComponent;
 
 /***/ }),
 
+/***/ "./src/components/pagination/index.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(__webpack_require__("./src/components/pagination/pagination.component.ts"));
+__export(__webpack_require__("./src/components/pagination/pagination.directive.ts"));
+__export(__webpack_require__("./src/components/pagination/pagination-template.directive.ts"));
+
+
+/***/ }),
+
+/***/ "./src/components/pagination/pagination-template.directive.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__("@angular/core");
+var DataTablePaginationTemplateDirective = /** @class */ (function () {
+    function DataTablePaginationTemplateDirective(template) {
+        this.template = template;
+    }
+    DataTablePaginationTemplateDirective = __decorate([
+        core_1.Directive({ selector: '[ngx-datatable-pagination-template]' }),
+        __metadata("design:paramtypes", [core_1.TemplateRef])
+    ], DataTablePaginationTemplateDirective);
+    return DataTablePaginationTemplateDirective;
+}());
+exports.DataTablePaginationTemplateDirective = DataTablePaginationTemplateDirective;
+
+
+/***/ }),
+
+/***/ "./src/components/pagination/pagination.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div\r\n    class=\"datatable-pagination-inner\"\r\n    [ngClass]=\"{'selected-count': selectedMessage}\"\r\n    [style.height.px]=\"paginationHeight\">\r\n    <ng-template\r\n        *ngIf=\"paginationTemplate\"\r\n        [ngTemplateOutlet]=\"paginationTemplate.template\"\r\n        [ngTemplateOutletContext]=\"{ \r\n            rowCount: rowCount, \r\n            pageSize: pageSize, \r\n            selectedCount: selectedCount,\r\n            curPage: curPage,\r\n            offset: offset\r\n        }\">\r\n    </ng-template>\r\n    <div class=\"page-count\" *ngIf=\"!paginationTemplate\">\r\n        <span *ngIf=\"selectedMessage\">\r\n            {{selectedCount.toLocaleString()}} {{selectedMessage}} / \r\n        </span>\r\n        Showing {{pageSize}} of {{rowCount.toLocaleString()}} {{totalMessage}}\r\n    </div>\r\n    <datatable-pager *ngIf=\"!paginationTemplate\"\r\n        [pagerLeftArrowIcon]=\"pagerLeftArrowIcon\"\r\n        [pagerRightArrowIcon]=\"pagerRightArrowIcon\"\r\n        [pagerPreviousIcon]=\"pagerPreviousIcon\"\r\n        [pagerNextIcon]=\"pagerNextIcon\"\r\n        [page]=\"curPage\"\r\n        [size]=\"pageSize\"\r\n        [count]=\"rowCount\"\r\n        [hidden]=\"!isVisible\"\r\n        (change)=\"page.emit($event)\">\r\n    </datatable-pager>\r\n</div>\r\n"
+
+/***/ }),
+
+/***/ "./src/components/pagination/pagination.component.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__("@angular/core");
+var DataTablePaginationComponent = /** @class */ (function () {
+    function DataTablePaginationComponent() {
+        this.selectedCount = 0;
+        this.page = new core_1.EventEmitter();
+    }
+    Object.defineProperty(DataTablePaginationComponent.prototype, "isVisible", {
+        get: function () {
+            return (this.rowCount / this.pageSize) > 1;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTablePaginationComponent.prototype, "curPage", {
+        get: function () {
+            return this.offset + 1;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number)
+    ], DataTablePaginationComponent.prototype, "paginationHeight", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number)
+    ], DataTablePaginationComponent.prototype, "rowCount", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number)
+    ], DataTablePaginationComponent.prototype, "pageSize", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number)
+    ], DataTablePaginationComponent.prototype, "offset", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DataTablePaginationComponent.prototype, "pagerLeftArrowIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DataTablePaginationComponent.prototype, "pagerRightArrowIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DataTablePaginationComponent.prototype, "pagerPreviousIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DataTablePaginationComponent.prototype, "pagerNextIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DataTablePaginationComponent.prototype, "totalMessage", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", core_1.TemplateRef)
+    ], DataTablePaginationComponent.prototype, "paginationTemplate", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number)
+    ], DataTablePaginationComponent.prototype, "selectedCount", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Object)
+    ], DataTablePaginationComponent.prototype, "selectedMessage", void 0);
+    __decorate([
+        core_1.Output(),
+        __metadata("design:type", core_1.EventEmitter)
+    ], DataTablePaginationComponent.prototype, "page", void 0);
+    DataTablePaginationComponent = __decorate([
+        core_1.Component({
+            selector: 'datatable-pagination',
+            template: __webpack_require__("./src/components/pagination/pagination.component.html"),
+            host: {
+                class: 'datatable-pagination'
+            },
+            changeDetection: core_1.ChangeDetectionStrategy.OnPush
+        })
+    ], DataTablePaginationComponent);
+    return DataTablePaginationComponent;
+}());
+exports.DataTablePaginationComponent = DataTablePaginationComponent;
+
+
+/***/ }),
+
+/***/ "./src/components/pagination/pagination.directive.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__("@angular/core");
+var pagination_template_directive_1 = __webpack_require__("./src/components/pagination/pagination-template.directive.ts");
+var DatatablePaginationDirective = /** @class */ (function () {
+    function DatatablePaginationDirective() {
+    }
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number)
+    ], DatatablePaginationDirective.prototype, "paginationHeight", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DatatablePaginationDirective.prototype, "totalMessage", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Object)
+    ], DatatablePaginationDirective.prototype, "selectedMessage", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DatatablePaginationDirective.prototype, "pagerLeftArrowIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DatatablePaginationDirective.prototype, "pagerRightArrowIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DatatablePaginationDirective.prototype, "pagerPreviousIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], DatatablePaginationDirective.prototype, "pagerNextIcon", void 0);
+    __decorate([
+        core_1.Input(),
+        core_1.ContentChild(pagination_template_directive_1.DataTablePaginationTemplateDirective, { read: core_1.TemplateRef }),
+        __metadata("design:type", core_1.TemplateRef)
+    ], DatatablePaginationDirective.prototype, "template", void 0);
+    DatatablePaginationDirective = __decorate([
+        core_1.Directive({ selector: 'ngx-datatable-pagination' })
+    ], DatatablePaginationDirective);
+    return DatatablePaginationDirective;
+}());
+exports.DatatablePaginationDirective = DatatablePaginationDirective;
+
+
+/***/ }),
+
 /***/ "./src/components/row-detail/index.ts":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6313,7 +6313,7 @@ var NgxDatatableModule = /** @class */ (function () {
                 services_1.ScrollbarHelper
             ],
             declarations: [
-                components_1.DataTableFooterTemplateDirective,
+                components_1.DataTablePaginationTemplateDirective,
                 directives_1.VisibilityDirective,
                 directives_1.DraggableDirective,
                 directives_1.ResizeableDirective,
@@ -6325,7 +6325,7 @@ var NgxDatatableModule = /** @class */ (function () {
                 components_1.DataTableHeaderComponent,
                 components_1.DataTableHeaderCellComponent,
                 components_1.DataTableBodyComponent,
-                components_1.DataTableFooterComponent,
+                components_1.DataTablePaginationComponent,
                 components_1.DataTablePagerComponent,
                 components_1.ProgressBarComponent,
                 components_1.DataTableBodyRowComponent,
@@ -6337,7 +6337,7 @@ var NgxDatatableModule = /** @class */ (function () {
                 components_1.DataTableSelectionComponent,
                 components_1.DataTableColumnHeaderDirective,
                 components_1.DataTableColumnCellDirective,
-                components_1.DatatableFooterDirective,
+                components_1.DatatablePaginationDirective,
                 components_1.DatatableGroupHeaderTemplateDirective
             ],
             exports: [
@@ -6348,8 +6348,8 @@ var NgxDatatableModule = /** @class */ (function () {
                 components_1.DataTableColumnDirective,
                 components_1.DataTableColumnHeaderDirective,
                 components_1.DataTableColumnCellDirective,
-                components_1.DataTableFooterTemplateDirective,
-                components_1.DatatableFooterDirective,
+                components_1.DataTablePaginationTemplateDirective,
+                components_1.DatatablePaginationDirective,
                 components_1.DataTablePagerComponent,
                 components_1.DatatableGroupHeaderTemplateDirective
             ]

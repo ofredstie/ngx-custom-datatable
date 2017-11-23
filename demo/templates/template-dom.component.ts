@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
         [rows]="rows"
         [columnMode]="'force'"
         [headerHeight]="50"
-        [footerHeight]="50"
+        [paginationHeight]="50"
         [rowHeight]="'auto'">
         <ngx-datatable-column name="Name">
           <ng-template let-column="column" ngx-datatable-header-template>

@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
           [columnMode]="'force'"
           [columns]="columns"
           [headerHeight]="50"
-          [footerHeight]="50"
+          [paginationHeight]="50"
           [rowHeight]="'auto'"
           [limit]="5"
           [selected]="selected"

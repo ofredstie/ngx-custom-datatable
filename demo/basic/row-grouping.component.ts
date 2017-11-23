@@ -21,7 +21,7 @@ import { NgStyle } from '@angular/common';
         [columnMode]="'force'"
         [scrollbarH]="true"
         [headerHeight]="50"
-        [footerHeight]="50"
+        [paginationHeight]="50"
         [rowHeight]="40"
         [limit]="4"
         [groupExpansionDefault]="true">

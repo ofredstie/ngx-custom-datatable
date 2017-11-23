@@ -1,6 +1,6 @@
 import { EventEmitter, TemplateRef } from '@angular/core';
-export declare class DataTableFooterComponent {
-    footerHeight: number;
+export declare class DataTablePaginationComponent {
+    paginationHeight: number;
     rowCount: number;
     pageSize: number;
     offset: number;
@@ -9,7 +9,7 @@ export declare class DataTableFooterComponent {
     pagerPreviousIcon: string;
     pagerNextIcon: string;
     totalMessage: string;
-    footerTemplate: TemplateRef<any>;
+    paginationTemplate: TemplateRef<any>;
     selectedCount: number;
     selectedMessage: string | boolean;
     page: EventEmitter<any>;

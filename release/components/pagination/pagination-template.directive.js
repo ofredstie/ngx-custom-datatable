@@ -10,15 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var DataTableFooterTemplateDirective = /** @class */ (function () {
-    function DataTableFooterTemplateDirective(template) {
+var DataTablePaginationTemplateDirective = /** @class */ (function () {
+    function DataTablePaginationTemplateDirective(template) {
         this.template = template;
     }
-    DataTableFooterTemplateDirective = __decorate([
-        core_1.Directive({ selector: '[ngx-datatable-footer-template]' }),
+    DataTablePaginationTemplateDirective = __decorate([
+        core_1.Directive({ selector: '[ngx-datatable-pagination-template]' }),
         __metadata("design:paramtypes", [core_1.TemplateRef])
-    ], DataTableFooterTemplateDirective);
-    return DataTableFooterTemplateDirective;
+    ], DataTablePaginationTemplateDirective);
+    return DataTablePaginationTemplateDirective;
 }());
-exports.DataTableFooterTemplateDirective = DataTableFooterTemplateDirective;
-//# sourceMappingURL=footer-template.directive.js.map
+exports.DataTablePaginationTemplateDirective = DataTablePaginationTemplateDirective;
+//# sourceMappingURL=pagination-template.directive.js.map

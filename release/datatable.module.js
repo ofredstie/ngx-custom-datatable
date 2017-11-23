@@ -24,7 +24,7 @@ var NgxDatatableModule = /** @class */ (function () {
                 services_1.ScrollbarHelper
             ],
             declarations: [
-                components_1.DataTableFooterTemplateDirective,
+                components_1.DataTablePaginationTemplateDirective,
                 directives_1.VisibilityDirective,
                 directives_1.DraggableDirective,
                 directives_1.ResizeableDirective,
@@ -36,7 +36,7 @@ var NgxDatatableModule = /** @class */ (function () {
                 components_1.DataTableHeaderComponent,
                 components_1.DataTableHeaderCellComponent,
                 components_1.DataTableBodyComponent,
-                components_1.DataTableFooterComponent,
+                components_1.DataTablePaginationComponent,
                 components_1.DataTablePagerComponent,
                 components_1.ProgressBarComponent,
                 components_1.DataTableBodyRowComponent,
@@ -48,7 +48,7 @@ var NgxDatatableModule = /** @class */ (function () {
                 components_1.DataTableSelectionComponent,
                 components_1.DataTableColumnHeaderDirective,
                 components_1.DataTableColumnCellDirective,
-                components_1.DatatableFooterDirective,
+                components_1.DatatablePaginationDirective,
                 components_1.DatatableGroupHeaderTemplateDirective
             ],
             exports: [
@@ -59,8 +59,8 @@ var NgxDatatableModule = /** @class */ (function () {
                 components_1.DataTableColumnDirective,
                 components_1.DataTableColumnHeaderDirective,
                 components_1.DataTableColumnCellDirective,
-                components_1.DataTableFooterTemplateDirective,
-                components_1.DatatableFooterDirective,
+                components_1.DataTablePaginationTemplateDirective,
+                components_1.DatatablePaginationDirective,
                 components_1.DataTablePagerComponent,
                 components_1.DatatableGroupHeaderTemplateDirective
             ]

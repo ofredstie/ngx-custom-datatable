@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
         [rows]="rows"
         [columnMode]="'force'"
         [headerHeight]="50"
-        [footerHeight]="50"
+        [paginationHeight]="50"
         [rowHeight]="50"
         [scrollbarV]="true"
         [sorts]="[{prop: 'name', dir: 'desc'}]">

@@ -19,7 +19,7 @@ import { Component } from '@angular/core';
         [columns]="columns"
         [columnMode]="'force'"
         [headerHeight]="40"
-        [footerHeight]="40"
+        [paginationHeight]="40"
         [limit]="10"
         [rowHeight]="'auto'"
         [reorderable]="reorderable">

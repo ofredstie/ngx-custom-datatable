@@ -78,6 +78,16 @@ export declare class DatatableComponent implements OnInit, DoCheck, AfterViewIni
      */
     paginationHeight: number;
     /**
+     * If the top pagination should be shown.
+     * By default set to false.
+     */
+    paginationTop: boolean;
+    /**
+     * If the top pagination should be shown.
+     * By default set to true.
+     */
+    paginationBottom: boolean;
+    /**
      * If the table should use external paging
      * otherwise its assumed that all data is preloaded.
      */

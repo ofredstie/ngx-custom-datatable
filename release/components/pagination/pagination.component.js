@@ -35,6 +35,14 @@ var DataTablePaginationComponent = /** @class */ (function () {
     ], DataTablePaginationComponent.prototype, "paginationHeight", void 0);
     __decorate([
         core_1.Input(),
+        __metadata("design:type", Boolean)
+    ], DataTablePaginationComponent.prototype, "paginationTop", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Boolean)
+    ], DataTablePaginationComponent.prototype, "paginationBottom", void 0);
+    __decorate([
+        core_1.Input(),
         __metadata("design:type", Number)
     ], DataTablePaginationComponent.prototype, "rowCount", void 0);
     __decorate([

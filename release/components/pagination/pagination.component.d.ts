@@ -1,6 +1,8 @@
 import { EventEmitter, TemplateRef } from '@angular/core';
 export declare class DataTablePaginationComponent {
     paginationHeight: number;
+    paginationTop: boolean;
+    paginationBottom: boolean;
     rowCount: number;
     pageSize: number;
     offset: number;

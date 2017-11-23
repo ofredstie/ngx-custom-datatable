@@ -176,7 +176,7 @@
       -webkit-box-flex: 1;
           -ms-flex: 1 1 80%;
               flex: 1 1 80%;
-      text-align: right; }
+      text-align: left; }
       .ngx-datatable .datatable-pagination .datatable-pager .pager,
       .ngx-datatable .datatable-pagination .datatable-pager .pager li {
         padding: 0;

@@ -65,6 +65,16 @@ var DatatableComponent = /** @class */ (function () {
          */
         this.paginationHeight = 0;
         /**
+         * If the top pagination should be shown.
+         * By default set to false.
+         */
+        this.paginationTop = false;
+        /**
+         * If the top pagination should be shown.
+         * By default set to true.
+         */
+        this.paginationBottom = true;
+        /**
          * If the table should use external paging
          * otherwise its assumed that all data is preloaded.
          */
@@ -807,6 +817,14 @@ var DatatableComponent = /** @class */ (function () {
         core_1.Input(),
         __metadata("design:type", Number)
     ], DatatableComponent.prototype, "paginationHeight", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Boolean)
+    ], DatatableComponent.prototype, "paginationTop", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Boolean)
+    ], DatatableComponent.prototype, "paginationBottom", void 0);
     __decorate([
         core_1.Input(),
         __metadata("design:type", Boolean)

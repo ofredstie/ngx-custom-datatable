@@ -20,6 +20,14 @@ var DatatablePaginationDirective = /** @class */ (function () {
     ], DatatablePaginationDirective.prototype, "paginationHeight", void 0);
     __decorate([
         core_1.Input(),
+        __metadata("design:type", Boolean)
+    ], DatatablePaginationDirective.prototype, "paginationTop", void 0);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Boolean)
+    ], DatatablePaginationDirective.prototype, "paginationBottom", void 0);
+    __decorate([
+        core_1.Input(),
         __metadata("design:type", String)
     ], DatatablePaginationDirective.prototype, "totalMessage", void 0);
     __decorate([

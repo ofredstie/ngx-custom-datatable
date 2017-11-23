@@ -164,7 +164,7 @@
       flex: 1 1 20%; }
     .ngx-datatable .datatable-pagination .datatable-pager {
       flex: 1 1 80%;
-      text-align: right; }
+      text-align: left; }
       .ngx-datatable .datatable-pagination .datatable-pager .pager,
       .ngx-datatable .datatable-pagination .datatable-pager .pager li {
         padding: 0;

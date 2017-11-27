@@ -28,6 +28,6 @@
         <span *ngIf="selectedMessage">
             {{selectedCount.toLocaleString()}} {{selectedMessage}} / 
         </span>
-        Showing {{1 + (pageSize * offset)}} to {{curPage * pageSize}} of {{rowCount.toLocaleString()}} {{totalMessage}}
+        Showing {{startRow}} to {{endRow}} of {{rowCount}} {{totalMessage}}
     </div>
 </div>

@@ -36,4 +36,17 @@ export class DataTablePaginationComponent {
     return this.offset + 1;
   }
 
+  get startRow(): number {
+    return 1 + (this.pageSize * this.offset);
+  }
+
+  get endRow(): number {
+    if (this.rowCount <= this.pageSize) {
+      return this.rowCount;
+    } else if (this.rowCount < (this.pageSize * this.curPage)) {
+      return this.rowCount;
+    } else {
+      return this.curPage * this.pageSize;
+    }
+  }
 }

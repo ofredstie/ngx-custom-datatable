@@ -17,4 +17,6 @@ export declare class DataTablePaginationComponent {
     page: EventEmitter<any>;
     readonly isVisible: boolean;
     readonly curPage: number;
+    readonly startRow: number;
+    readonly endRow: number;
 }

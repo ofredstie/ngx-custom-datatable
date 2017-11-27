@@ -29,6 +29,28 @@ var DataTablePaginationComponent = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
+    Object.defineProperty(DataTablePaginationComponent.prototype, "startRow", {
+        get: function () {
+            return 1 + (this.pageSize * this.offset);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTablePaginationComponent.prototype, "endRow", {
+        get: function () {
+            if (this.rowCount <= this.pageSize) {
+                return this.rowCount;
+            }
+            else if (this.rowCount < (this.pageSize * this.curPage)) {
+                return this.rowCount;
+            }
+            else {
+                return this.curPage * this.pageSize;
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
     __decorate([
         core_1.Input(),
         __metadata("design:type", Number)

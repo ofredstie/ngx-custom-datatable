@@ -6003,7 +6003,7 @@ exports.DataTablePaginationTemplateDirective = DataTablePaginationTemplateDirect
 /***/ "./src/components/pagination/pagination.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div\r\n    class=\"datatable-pagination-inner\"\r\n    [ngClass]=\"{'selected-count': selectedMessage}\"\r\n    [style.height.px]=\"paginationHeight\">\r\n    <ng-template\r\n        *ngIf=\"paginationTemplate\"\r\n        [ngTemplateOutlet]=\"paginationTemplate.template\"\r\n        [ngTemplateOutletContext]=\"{ \r\n            rowCount: rowCount, \r\n            pageSize: pageSize, \r\n            selectedCount: selectedCount,\r\n            curPage: curPage,\r\n            offset: offset\r\n        }\">\r\n    </ng-template>\r\n    <datatable-pager *ngIf=\"!paginationTemplate\"\r\n        [pagerLeftArrowIcon]=\"pagerLeftArrowIcon\"\r\n        [pagerRightArrowIcon]=\"pagerRightArrowIcon\"\r\n        [pagerPreviousIcon]=\"pagerPreviousIcon\"\r\n        [pagerNextIcon]=\"pagerNextIcon\"\r\n        [page]=\"curPage\"\r\n        [size]=\"pageSize\"\r\n        [count]=\"rowCount\"\r\n        [hidden]=\"!isVisible\"\r\n        (change)=\"page.emit($event)\">\r\n    </datatable-pager>\r\n    <div class=\"page-count\" *ngIf=\"!paginationTemplate\">\r\n        <span *ngIf=\"selectedMessage\">\r\n            {{selectedCount.toLocaleString()}} {{selectedMessage}} / \r\n        </span>\r\n        Showing {{1 + (pageSize * offset)}} to {{curPage * pageSize}} of {{rowCount.toLocaleString()}} {{totalMessage}}\r\n    </div>\r\n</div>\r\n"
+module.exports = "<div\r\n    class=\"datatable-pagination-inner\"\r\n    [ngClass]=\"{'selected-count': selectedMessage}\"\r\n    [style.height.px]=\"paginationHeight\">\r\n    <ng-template\r\n        *ngIf=\"paginationTemplate\"\r\n        [ngTemplateOutlet]=\"paginationTemplate.template\"\r\n        [ngTemplateOutletContext]=\"{ \r\n            rowCount: rowCount, \r\n            pageSize: pageSize, \r\n            selectedCount: selectedCount,\r\n            curPage: curPage,\r\n            offset: offset\r\n        }\">\r\n    </ng-template>\r\n    <datatable-pager *ngIf=\"!paginationTemplate\"\r\n        [pagerLeftArrowIcon]=\"pagerLeftArrowIcon\"\r\n        [pagerRightArrowIcon]=\"pagerRightArrowIcon\"\r\n        [pagerPreviousIcon]=\"pagerPreviousIcon\"\r\n        [pagerNextIcon]=\"pagerNextIcon\"\r\n        [page]=\"curPage\"\r\n        [size]=\"pageSize\"\r\n        [count]=\"rowCount\"\r\n        [hidden]=\"!isVisible\"\r\n        (change)=\"page.emit($event)\">\r\n    </datatable-pager>\r\n    <div class=\"page-count\" *ngIf=\"!paginationTemplate\">\r\n        <span *ngIf=\"selectedMessage\">\r\n            {{selectedCount.toLocaleString()}} {{selectedMessage}} / \r\n        </span>\r\n        Showing {{startRow}} to {{endRow}} of {{rowCount}} {{totalMessage}}\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -6038,6 +6038,28 @@ var DataTablePaginationComponent = /** @class */ (function () {
     Object.defineProperty(DataTablePaginationComponent.prototype, "curPage", {
         get: function () {
             return this.offset + 1;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTablePaginationComponent.prototype, "startRow", {
+        get: function () {
+            return 1 + (this.pageSize * this.offset);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTablePaginationComponent.prototype, "endRow", {
+        get: function () {
+            if (this.rowCount <= this.pageSize) {
+                return this.rowCount;
+            }
+            else if (this.rowCount < (this.pageSize * this.curPage)) {
+                return this.rowCount;
+            }
+            else {
+                return this.curPage * this.pageSize;
+            }
         },
         enumerable: true,
         configurable: true

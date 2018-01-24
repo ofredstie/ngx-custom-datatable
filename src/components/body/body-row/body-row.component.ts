@@ -5,9 +5,9 @@ import {
 
 import {
   allColumnsByPinArr, columnsByPin, columnGroupWidths, columnsByPinArr, translateXY, Keys
-} from '../../utils';
-import { ScrollbarHelper } from '../../services';
-import { MouseEvent, KeyboardEvent } from '../../events';
+} from '../../../utils';
+import { ScrollbarHelper } from '../../../services';
+import { MouseEvent, KeyboardEvent } from '../../../events';
 
 @Component({
   selector: 'datatable-body-row',

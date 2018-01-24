@@ -4,7 +4,7 @@ import {
 } from '@angular/core';
 import { translateXY, columnsByPin, columnGroupWidths, RowHeightCache } from '../../utils';
 import { SelectionType } from '../../types';
-import { ScrollerComponent } from './scroller.component';
+import { ScrollerComponent } from './scroller/scroller.component';
 import { MouseEvent } from '../../events';
 
 @Component({

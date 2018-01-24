@@ -35,7 +35,7 @@ import { Component, ViewEncapsulation, ViewChild } from '@angular/core';
         class='material expandable'
         [columnMode]="'force'"
         [headerHeight]="50"
-        [footerHeight]="50"
+        [paginationHeight]="50"
         [rowHeight]="50"
         [scrollbarV]="true"
         [rows]='rows'

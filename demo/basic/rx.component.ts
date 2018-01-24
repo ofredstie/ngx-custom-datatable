@@ -19,7 +19,7 @@ import { Observable } from 'rxjs/Rx';
         [columns]="columns"
         [columnMode]="'force'"
         [headerHeight]="50"
-        [footerHeight]="50"
+        [paginationHeight]="50"
         [rowHeight]="50">
       </ngx-datatable>
     </div>

@@ -24,7 +24,7 @@ import { Component } from '@angular/core';
           [rows]="rows"
           [columnMode]="'force'"
           [headerHeight]="50"
-          [footerHeight]="50"
+          [paginationHeight]="50"
           [rowHeight]="'auto'"
           [limit]="5"
           [selected]="selected"

@@ -5,7 +5,7 @@ import { DataTableBodyComponent } from './body';
 import { DatatableGroupHeaderDirective } from './body/body-group-header.directive';
 import { DataTableColumnDirective } from './columns';
 import { DatatableRowDetailDirective } from './row-detail';
-import { DatatableFooterDirective } from './footer';
+import { DatatablePaginationDirective } from './pagination';
 export declare class DatatableComponent implements OnInit, DoCheck, AfterViewInit {
     private scrollbarHelper;
     private cd;
@@ -73,10 +73,10 @@ export declare class DatatableComponent implements OnInit, DoCheck, AfterViewIni
      */
     headerHeight: any;
     /**
-     * The minimum footer height in pixels.
-     * Pass falsey for no footer
+     * The minimum pagination height in pixels.
+     * Pass falsey for no pagination
      */
-    footerHeight: number;
+    paginationHeight: number;
     /**
      * If the table should use external paging
      * otherwise its assumed that all data is preloaded.
@@ -294,9 +294,9 @@ export declare class DatatableComponent implements OnInit, DoCheck, AfterViewIni
      */
     groupHeader: DatatableGroupHeaderDirective;
     /**
-     * Footer template gathered from the ContentChild
+     * Pagination template gathered from the ContentChild
      */
-    footer: DatatableFooterDirective;
+    pagination: DatatablePaginationDirective;
     /**
      * Reference to the body component for manually
      * invoking functions on the body.
@@ -384,9 +384,9 @@ export declare class DatatableComponent implements OnInit, DoCheck, AfterViewIni
      */
     onBodyScroll(event: MouseEvent): void;
     /**
-     * The footer triggered a page event.
+     * The Pagination triggered a page event.
      */
-    onFooterPage(event: any): void;
+    onPaginationPage(event: any): void;
     /**
      * Recalculates the sizes of the page
      */

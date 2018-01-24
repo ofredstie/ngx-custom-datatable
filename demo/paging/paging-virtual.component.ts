@@ -26,7 +26,7 @@ import {Page} from "./model/page";
         [columnMode]="'force'"
         [headerHeight]="50"
         [scrollbarV]="true"
-        [footerHeight]="50"
+        [paginationHeight]="50"
         [rowHeight]="50"
         [externalPaging]="true"
         [count]="page.totalElements"

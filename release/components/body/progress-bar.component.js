@@ -13,7 +13,7 @@ var ProgressBarComponent = /** @class */ (function () {
     ProgressBarComponent = __decorate([
         core_1.Component({
             selector: 'datatable-progress',
-            template: "\n    <div class=\"progress-linear\" role=\"progressbar\">\n      <div class=\"container\">\n        <div class=\"bar\"></div>\n      </div>\n    </div>\n  ",
+            templateUrl: 'progress-bar.component.html',
             changeDetection: core_1.ChangeDetectionStrategy.OnPush
         })
     ], ProgressBarComponent);

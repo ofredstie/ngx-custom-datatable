@@ -25,7 +25,7 @@ import {Page} from "./model/page";
         [columns]="[{name:'Name'},{name:'Gender'},{name:'Company'}]"
         [columnMode]="'force'"
         [headerHeight]="50"
-        [footerHeight]="50"
+        [paginationHeight]="50"
         [rowHeight]="'auto'"
         [externalPaging]="true"
         [count]="page.totalElements"

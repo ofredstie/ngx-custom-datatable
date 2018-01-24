@@ -33,7 +33,7 @@
    * Body Styles
    */
   /**
-   * Footer Styles
+   * Pagination Styles
    */ }
   .ngx-datatable [hidden] {
     display: none !important; }
@@ -149,10 +149,10 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
-  .ngx-datatable .datatable-footer {
+  .ngx-datatable .datatable-pagination {
     display: block;
     width: 100%; }
-    .ngx-datatable .datatable-footer .datatable-footer-inner {
+    .ngx-datatable .datatable-pagination .datatable-pagination-inner {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -160,35 +160,35 @@
           -ms-flex-align: center;
               align-items: center;
       width: 100%; }
-    .ngx-datatable .datatable-footer .selected-count .page-count {
+    .ngx-datatable .datatable-pagination .selected-count .page-count {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 40%;
               flex: 1 1 40%; }
-    .ngx-datatable .datatable-footer .selected-count .datatable-pager {
+    .ngx-datatable .datatable-pagination .selected-count .datatable-pager {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 60%;
               flex: 1 1 60%; }
-    .ngx-datatable .datatable-footer .page-count {
+    .ngx-datatable .datatable-pagination .page-count {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 20%;
               flex: 1 1 20%; }
-    .ngx-datatable .datatable-footer .datatable-pager {
+    .ngx-datatable .datatable-pagination .datatable-pager {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 80%;
               flex: 1 1 80%;
       text-align: right; }
-      .ngx-datatable .datatable-footer .datatable-pager .pager,
-      .ngx-datatable .datatable-footer .datatable-pager .pager li {
+      .ngx-datatable .datatable-pagination .datatable-pager .pager,
+      .ngx-datatable .datatable-pagination .datatable-pager .pager li {
         padding: 0;
         margin: 0;
         display: inline-block;
         list-style: none; }
-      .ngx-datatable .datatable-footer .datatable-pager .pager li, .ngx-datatable .datatable-footer .datatable-pager .pager li a {
+      .ngx-datatable .datatable-pagination .datatable-pager .pager li, .ngx-datatable .datatable-pagination .datatable-pager .pager li a {
         outline: none; }
-      .ngx-datatable .datatable-footer .datatable-pager .pager li a {
+      .ngx-datatable .datatable-pagination .datatable-pager .pager li a {
         cursor: pointer;
         display: inline-block; }
-      .ngx-datatable .datatable-footer .datatable-pager .pager li.disabled a {
+      .ngx-datatable .datatable-pagination .datatable-pager .pager li.disabled a {
         cursor: not-allowed; }
 
 /*# sourceMappingURL=index.map*/

@@ -1,10 +1,12 @@
 import { Input, Output, EventEmitter, Directive, TemplateRef, ContentChild } from '@angular/core';
-import { DataTableFooterTemplateDirective } from './footer-template.directive';
+import { DataTablePaginationTemplateDirective } from './pagination-template.directive';
 
-@Directive({ selector: 'ngx-datatable-footer' })
-export class DatatableFooterDirective {
+@Directive({ selector: 'ngx-datatable-pagination' })
+export class DatatablePaginationDirective {
 
-  @Input() footerHeight: number;
+  @Input() paginationHeight: number;
+  @Input() paginationTop: boolean;
+  @Input() paginationBottom: boolean;
   @Input() totalMessage: string;
   @Input() selectedMessage: string | boolean;
   @Input() pagerLeftArrowIcon: string;
@@ -13,7 +15,7 @@ export class DatatableFooterDirective {
   @Input() pagerNextIcon: string;
 
   @Input()
-  @ContentChild(DataTableFooterTemplateDirective, { read: TemplateRef }) 
+  @ContentChild(DataTablePaginationTemplateDirective, { read: TemplateRef }) 
   template: TemplateRef<any>;
 
 }

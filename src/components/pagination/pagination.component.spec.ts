@@ -4,21 +4,21 @@ import {
 } from '@angular/core/testing';
 
 import {
-  DataTableFooterComponent,
+  DataTablePaginationComponent,
   DataTablePagerComponent
 } from '.';
 import {By} from "@angular/platform-browser";
 
-describe('DataTableFooterComponent', () => {
+describe('DataTablePaginationComponent', () => {
   let fixture: any;
-  let component: DataTableFooterComponent;
+  let component: DataTablePaginationComponent;
   let element;
 
   // provide our implementations or mocks to the dependency injector
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [ 
-        DataTableFooterComponent,
+        DataTablePaginationComponent,
         DataTablePagerComponent
       ]
     });
@@ -26,7 +26,7 @@ describe('DataTableFooterComponent', () => {
 
   beforeEach(async(() => {
     TestBed.compileComponents().then(() => {
-      fixture = TestBed.createComponent(DataTableFooterComponent);
+      fixture = TestBed.createComponent(DataTablePaginationComponent);
       component = fixture.componentInstance;
       element = fixture.nativeElement;
     });

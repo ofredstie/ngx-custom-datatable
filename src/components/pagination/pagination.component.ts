@@ -1,16 +1,18 @@
 import { Component, Output, EventEmitter, ChangeDetectionStrategy, Input, TemplateRef } from '@angular/core';
 
 @Component({
-  selector: 'datatable-footer',
-  templateUrl: 'footer.component.html',
+  selector: 'datatable-pagination',
+  templateUrl: 'pagination.component.html',
   host: {
-    class: 'datatable-footer'
+    class: 'datatable-pagination'
   },
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class DataTableFooterComponent {
+export class DataTablePaginationComponent {
 
-  @Input() footerHeight: number;
+  @Input() paginationHeight: number;
+  @Input() paginationTop: boolean;
+  @Input() paginationBottom: boolean;
   @Input() rowCount: number;
   @Input() pageSize: number;
   @Input() offset: number;
@@ -19,7 +21,7 @@ export class DataTableFooterComponent {
   @Input() pagerPreviousIcon: string;
   @Input() pagerNextIcon: string;
   @Input() totalMessage: string;
-  @Input() footerTemplate: TemplateRef<any>;
+  @Input() paginationTemplate: TemplateRef<any>;
 
   @Input() selectedCount: number = 0;
   @Input() selectedMessage: string | boolean;
@@ -34,4 +36,17 @@ export class DataTableFooterComponent {
     return this.offset + 1;
   }
 
+  get startRow(): number {
+    return 1 + (this.pageSize * this.offset);
+  }
+
+  get endRow(): number {
+    if (this.rowCount <= this.pageSize) {
+      return this.rowCount;
+    } else if (this.rowCount < (this.pageSize * this.curPage)) {
+      return this.rowCount;
+    } else {
+      return this.curPage * this.pageSize;
+    }
+  }
 }

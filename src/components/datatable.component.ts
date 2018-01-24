@@ -16,7 +16,7 @@ import { DataTableBodyComponent } from './body';
 import { DatatableGroupHeaderDirective } from './body/body-group-header.directive';
 import { DataTableColumnDirective } from './columns';
 import { DatatableRowDetailDirective } from './row-detail';
-import { DatatableFooterDirective } from './footer';
+import { DatatablePaginationDirective } from './pagination';
 import { MouseEvent } from '../events';
 
 @Component({
@@ -152,10 +152,22 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit {
   @Input() headerHeight: any = 30;
 
   /**
-   * The minimum footer height in pixels.
-   * Pass falsey for no footer
+   * The minimum pagination height in pixels.
+   * Pass falsey for no pagination
    */
-  @Input() footerHeight: number = 0;
+  @Input() paginationHeight: number = 0;
+  
+  /**
+   * If the top pagination should be shown.
+   * By default set to false.
+   */
+  @Input() paginationTop: boolean = false;
+  
+  /**
+   * If the top pagination should be shown.
+   * By default set to true.
+   */
+  @Input() paginationBottom: boolean = true;
 
   /**
    * If the table should use external paging
@@ -277,10 +289,10 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit {
     // but contains no values
     emptyMessage: 'No data to display',
 
-    // Footer total message
+    // Pagination total message
     totalMessage: 'total',
 
-    // Footer selected message
+    // Pagination selected message
     selectedMessage: 'selected'
   };
 
@@ -504,10 +516,10 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit {
   groupHeader: DatatableGroupHeaderDirective;  
 
   /**
-   * Footer template gathered from the ContentChild
+   * Pagination template gathered from the ContentChild
    */
-  @ContentChild(DatatableFooterDirective)
-  footer: DatatableFooterDirective;
+  @ContentChild(DatatablePaginationDirective)
+  pagination: DatatablePaginationDirective;
 
   /**
    * Reference to the body component for manually
@@ -699,7 +711,7 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit {
     if (this.scrollbarV) {
       let height = dims.height;
       if (this.headerHeight) height = height - this.headerHeight;
-      if (this.footerHeight) height = height - this.footerHeight;
+      if (this.paginationHeight) height = height - this.paginationHeight;
       this.bodyHeight = height;
     }
 
@@ -737,9 +749,9 @@ export class DatatableComponent implements OnInit, DoCheck, AfterViewInit {
   }
 
   /**
-   * The footer triggered a page event.
+   * The Pagination triggered a page event.
    */
-  onFooterPage(event: any) {
+  onPaginationPage(event: any) {
     this.offset = event.page - 1;
     this.bodyComponent.updateOffsetY(this.offset);
 

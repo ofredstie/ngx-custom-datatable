@@ -170,7 +170,7 @@ var DataTableSelectionComponent = /** @class */ (function () {
     DataTableSelectionComponent = __decorate([
         core_1.Component({
             selector: 'datatable-selection',
-            template: "\n    <ng-content></ng-content>\n  ",
+            templateUrl: 'selection.component.html',
             changeDetection: core_1.ChangeDetectionStrategy.OnPush
         })
     ], DataTableSelectionComponent);

@@ -10,47 +10,47 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var footer_template_directive_1 = require("./footer-template.directive");
-var DatatableFooterDirective = /** @class */ (function () {
-    function DatatableFooterDirective() {
+var pagination_template_directive_1 = require("./pagination-template.directive");
+var DatatablePaginationDirective = /** @class */ (function () {
+    function DatatablePaginationDirective() {
     }
     __decorate([
         core_1.Input(),
         __metadata("design:type", Number)
-    ], DatatableFooterDirective.prototype, "footerHeight", void 0);
+    ], DatatablePaginationDirective.prototype, "paginationHeight", void 0);
     __decorate([
         core_1.Input(),
         __metadata("design:type", String)
-    ], DatatableFooterDirective.prototype, "totalMessage", void 0);
+    ], DatatablePaginationDirective.prototype, "totalMessage", void 0);
     __decorate([
         core_1.Input(),
         __metadata("design:type", Object)
-    ], DatatableFooterDirective.prototype, "selectedMessage", void 0);
+    ], DatatablePaginationDirective.prototype, "selectedMessage", void 0);
     __decorate([
         core_1.Input(),
         __metadata("design:type", String)
-    ], DatatableFooterDirective.prototype, "pagerLeftArrowIcon", void 0);
+    ], DatatablePaginationDirective.prototype, "pagerLeftArrowIcon", void 0);
     __decorate([
         core_1.Input(),
         __metadata("design:type", String)
-    ], DatatableFooterDirective.prototype, "pagerRightArrowIcon", void 0);
+    ], DatatablePaginationDirective.prototype, "pagerRightArrowIcon", void 0);
     __decorate([
         core_1.Input(),
         __metadata("design:type", String)
-    ], DatatableFooterDirective.prototype, "pagerPreviousIcon", void 0);
+    ], DatatablePaginationDirective.prototype, "pagerPreviousIcon", void 0);
     __decorate([
         core_1.Input(),
         __metadata("design:type", String)
-    ], DatatableFooterDirective.prototype, "pagerNextIcon", void 0);
+    ], DatatablePaginationDirective.prototype, "pagerNextIcon", void 0);
     __decorate([
         core_1.Input(),
-        core_1.ContentChild(footer_template_directive_1.DataTableFooterTemplateDirective, { read: core_1.TemplateRef }),
+        core_1.ContentChild(pagination_template_directive_1.DataTablePaginationTemplateDirective, { read: core_1.TemplateRef }),
         __metadata("design:type", core_1.TemplateRef)
-    ], DatatableFooterDirective.prototype, "template", void 0);
-    DatatableFooterDirective = __decorate([
-        core_1.Directive({ selector: 'ngx-datatable-footer' })
-    ], DatatableFooterDirective);
-    return DatatableFooterDirective;
+    ], DatatablePaginationDirective.prototype, "template", void 0);
+    DatatablePaginationDirective = __decorate([
+        core_1.Directive({ selector: 'ngx-datatable-pagination' })
+    ], DatatablePaginationDirective);
+    return DatatablePaginationDirective;
 }());
-exports.DatatableFooterDirective = DatatableFooterDirective;
-//# sourceMappingURL=footer.directive.js.map
+exports.DatatablePaginationDirective = DatatablePaginationDirective;
+//# sourceMappingURL=pagination.directive.js.map

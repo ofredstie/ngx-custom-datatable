@@ -19,7 +19,7 @@ import { Component } from '@angular/core';
         [sortType]="'multi'"
         [columnMode]="'force'"
         [headerHeight]="50"
-        [footerHeight]="50"
+        [paginationHeight]="50"
         [rowHeight]="50"
         [scrollbarV]="true">
       </ngx-datatable>

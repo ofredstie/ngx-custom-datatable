@@ -17,10 +17,12 @@ import { Component } from '@angular/core';
         [rows]="rows"
         [columns]="[{name:'Name'},{name:'Gender'},{name:'Company'}]"
         [columnMode]="'force'"
-        [headerHeight]="50"
-        [footerHeight]="50"
+        [headerHeight]="40"
+        [paginationHeight]="40"
+        [paginationTop]="true"
+        [paginationBottom]="true"
         [rowHeight]="'auto'"
-        [limit]="10">
+        [limit]="25">
       </ngx-datatable>
     </div>
   `
@@ -32,6 +34,7 @@ export class ClientPagingComponent {
   constructor() {
     this.fetch((data) => {
       this.rows = data;
+      this.rows = this.rows.slice(0, 50);
     });
   }
 

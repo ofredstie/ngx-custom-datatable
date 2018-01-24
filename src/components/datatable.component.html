@@ -1,6 +1,24 @@
 <div
 visibilityObserver
 (visible)="recalculate()">
+    <datatable-pagination
+    *ngIf="paginationTop"
+    [rowCount]="rowCount"
+    [pageSize]="pageSize"
+    [offset]="offset"
+    [paginationHeight]="paginationHeight"
+    [paginationTop]="paginationTop"
+    [paginationBottom]="paginationBottom"
+    [paginationTemplate]="pagination"
+    [totalMessage]="messages.totalMessage"
+    [pagerLeftArrowIcon]="cssClasses.pagerLeftArrow"
+    [pagerRightArrowIcon]="cssClasses.pagerRightArrow"
+    [pagerPreviousIcon]="cssClasses.pagerPrevious"
+    [selectedCount]="selected.length"
+    [selectedMessage]="!!selectionType && messages.selectedMessage"
+    [pagerNextIcon]="cssClasses.pagerNext"
+    (page)="onPaginationPage($event)">
+    </datatable-pagination>
     <datatable-header
     *ngIf="headerHeight"
     [sorts]="sorts"
@@ -55,13 +73,15 @@ visibilityObserver
     (select)="onBodySelect($event)"
     (scroll)="onBodyScroll($event)">
     </datatable-body>
-    <datatable-footer
-    *ngIf="footerHeight"
+    <datatable-pagination
+    *ngIf="paginationBottom"
     [rowCount]="rowCount"
     [pageSize]="pageSize"
     [offset]="offset"
-    [footerHeight]="footerHeight"
-    [footerTemplate]="footer"
+    [paginationHeight]="paginationHeight"
+    [paginationTop]="paginationTop"
+    [paginationBottom]="paginationBottom"
+    [paginationTemplate]="pagination"
     [totalMessage]="messages.totalMessage"
     [pagerLeftArrowIcon]="cssClasses.pagerLeftArrow"
     [pagerRightArrowIcon]="cssClasses.pagerRightArrow"
@@ -69,6 +89,6 @@ visibilityObserver
     [selectedCount]="selected.length"
     [selectedMessage]="!!selectionType && messages.selectedMessage"
     [pagerNextIcon]="cssClasses.pagerNext"
-    (page)="onFooterPage($event)">
-    </datatable-footer>
+    (page)="onPaginationPage($event)">
+    </datatable-pagination>
 </div>
